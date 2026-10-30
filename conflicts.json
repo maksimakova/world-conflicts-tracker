@@ -1,0 +1,1863 @@
+[
+ {
+  "id": "haiti",
+  "name": "Haiti gang violence",
+  "region": "Americas",
+  "countries": [
+   "Haiti",
+   "El Salvador",
+   "Kenya",
+   "United States"
+  ],
+  "intensity": "High intensity",
+  "started": "Jul 2021",
+  "duration_note": "CFR dates the sharp deterioration to the assassination of President Jovenel Moïse in July 2021.",
+  "summary": "Gangs are testing a UN-authorized Gang Suppression Force that has 1,563 uniformed members against 5,550 authorized, and four Salvadoran soldiers went missing after an ambush on 18 October. Elections planned for 13 December were postponed, and nearly 1.5 million people are displaced.",
+  "casualties": "5,700+ killed or injured in 2026 so far (OHCHR)",
+  "casualties_basis": "OHCHR's confirmed count of people killed or injured by gangs or during operations against them from 1 January to about 2 October 2026, which it says is likely an undercount; the UN Secretary-General's report separately counts 1,123 killed from 15 July to 12 October, 659 of them gang members, and AP reports more than 21,000 killed in four years.",
+  "casualties_sort": 5700,
+  "casualties_source": "OHCHR, via UN News",
+  "casualties_url": "https://news.un.org/en/story/2026/10/1168511",
+  "displaced": "Nearly 1.5 million internally displaced (IOM)",
+  "displaced_basis": "People displaced inside Haiti, more than 740,000 of them children per the UN; IOM's September 2026 assessment found about four in five are now outside Port-au-Prince.",
+  "displaced_sort": 1500000,
+  "displaced_source": "IOM, via UN News",
+  "displaced_url": "https://news.un.org/en/story/2026/10/1168626",
+  "parties": [
+   {
+    "side": "Haitian government and security forces",
+    "members": "Prime Minister Alix Didier Fils-Aimé's government, Haitian police and armed forces"
+   },
+   {
+    "side": "Gang Suppression Force",
+    "members": "UN-authorized force, including Salvadoran troops"
+   },
+   {
+    "side": "Armed gangs",
+    "members": "Viv Ansanm coalition, Gran Grif, Kokorat San Ras and others"
+   }
+  ],
+  "talks_status": "No talks",
+  "talks": "No peace negotiations with the gangs were found as of October 2026; the UN is calling for disarmament and reintegration programs. The 13 December election was postponed indefinitely, and CFR's tracker lists a new date of 18 July 2027 that this research could not confirm elsewhere.",
+  "talks_source": "UN News",
+  "talks_url": "https://news.un.org/en/story/2026/10/1168626",
+  "timeline": [
+   {
+    "date": "Jul 2021",
+    "event": "President Jovenel Moïse is assassinated, leaving a power vacuum that armed gangs fill."
+   },
+   {
+    "date": "Sep 2025",
+    "event": "The UN-authorized Gang Suppression Force is established to replace the Kenya-led mission."
+   },
+   {
+    "date": "Feb 2026",
+    "event": "The Transitional Presidential Council dissolves and Prime Minister Fils-Aimé holds sole executive power."
+   },
+   {
+    "date": "Aug 2026",
+    "event": "An attack in Kenscoff kills at least 47 people and leaves 52 taken hostage, per the UN."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "The UN reports the 13 December elections have been postponed indefinitely."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Gangs ambush a Gang Suppression Force vehicle in Croix-des-Bouquets on 18 October, and four Salvadoran soldiers go missing."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "mexico",
+  "name": "Mexico cartel violence",
+  "region": "Americas",
+  "countries": [
+   "Mexico",
+   "United States"
+  ],
+  "intensity": "High intensity",
+  "started": "Sep 2024",
+  "duration_note": "CFR traces the military-led campaign against cartels to 2006; the current Sinaloa Cartel split began in September 2024.",
+  "summary": "National daily homicides have fallen by the government's count, but President Sheinbaum acknowledged a rise in Sinaloa over the past two months and is reviewing troop deployments there. Washington is pressing for US personnel to accompany operations on Mexican soil, which Mexico says its law does not allow.",
+  "casualties": "3,800+ dead, 4,400 missing in Sinaloa since Sep 2024",
+  "casualties_basis": "Crisis Group's CrisisWatch count for the Sinaloa Cartel infighting only, not all of Mexico; nationally, Mexico's SESNSP reports 42.2 intentional homicides a day in September 2026, down from 86.9 in September 2024, not all of them cartel-related. No national cartel death toll was found.",
+  "casualties_sort": 3800,
+  "casualties_source": "Crisis Group, CrisisWatch September 2026",
+  "casualties_url": "https://www.crisisgroup.org/latin-america-caribbean/central-america/mexico",
+  "displaced": "At least 15,795 displaced in 2025 (Ibero report)",
+  "displaced_basis": "People forced from their homes during 2025 by a media-monitoring count from the Human Rights Program of the Ibero-American University, which links 83% of cases to organized-crime violence; this is one year, not a cumulative total, and no official national figure was found.",
+  "displaced_sort": 15795,
+  "displaced_source": "PDH IBERO, via SIPAZ",
+  "displaced_url": "https://sipazen.wordpress.com/2026/05/15/national-forced-journeys-internal-displacement-in-mexico-2025-report-published/",
+  "parties": [
+   {
+    "side": "Mexican government",
+    "members": "Army, Navy, National Guard and federal security forces under President Claudia Sheinbaum"
+   },
+   {
+    "side": "Criminal groups",
+    "members": "Sinaloa Cartel factions, Jalisco New Generation Cartel (CJNG), Gulf Cartel, Juárez Cartel, Cárteles Unidos"
+   }
+  ],
+  "talks_status": "No talks",
+  "talks": "No negotiations between the government and cartels were found as of October 2026. Separately, a US memo reported by The New York Times in October 2026 seeks a path for US personnel to accompany operations in Mexico, and President Sheinbaum says Mexican law bars this.",
+  "talks_source": "The Rio Times, citing The New York Times",
+  "talks_url": "https://www.riotimesonline.com/mexico-us-agents-joint-raids-memo-2026/",
+  "timeline": [
+   {
+    "date": "2006",
+    "event": "President Felipe Calderón launches a military-led campaign against cartels."
+   },
+   {
+    "date": "Sep 2024",
+    "event": "The Sinaloa Cartel splits after Ismael \"El Mayo\" Zambada is captured by the US."
+   },
+   {
+    "date": "Feb 2025",
+    "event": "The US designates the Sinaloa Cartel, CJNG and others as foreign terrorist organizations."
+   },
+   {
+    "date": "Nov 2025",
+    "event": "Uruapan mayor Carlos Manzo is shot dead, and investigators say CJNG ordered the attack."
+   },
+   {
+    "date": "Feb 2026",
+    "event": "Mexican forces kill CJNG leader \"El Mencho\" on 22 February, followed by a wave of violence across several states."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Sheinbaum acknowledges rising homicides in Sinaloa, and federal operations hit five cartels between 26 and 29 October."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "colombia",
+  "name": "Colombia armed groups conflict",
+  "region": "Americas",
+  "countries": [
+   "Colombia",
+   "Venezuela"
+  ],
+  "intensity": "Active conflict",
+  "started": "Jan 2025",
+  "duration_note": "The ELN has been active since 1964; the current phase follows its January 2025 offensive against FARC dissidents in Catatumbo.",
+  "summary": "President Abelardo de la Espriella ended all peace talks in September 2026 and offers armed groups a choice of submitting to justice or facing military force. He ordered the temporary militarization of Cúcuta on 29 October after a politician's assassination and a bombing there.",
+  "casualties": "192 killed in Catatumbo, Jan 2025 to Apr 2026",
+  "casualties_basis": "Norte de Santander government count for one region, reported by The Rio Times, so it is not a national toll; no credible nationwide conflict death count was found, and the UN separately verified 13 former FARC combatants killed in 2026 and received 40 reports of social leaders killed from 27 June to 26 September.",
+  "casualties_sort": 192,
+  "casualties_source": "Norte de Santander government, via The Rio Times",
+  "casualties_url": "https://www.riotimesonline.com/cucuta-political-violence-explained-2026/",
+  "displaced": "100,000+ displaced in Catatumbo since early 2025",
+  "displaced_basis": "Regional figure for Catatumbo only; the Norte de Santander government counted 101,883 through April 2026. Nationally, Colombia's Ombudsman counted 15,960 people in mass displacements and 64,787 confined from January to June 2026.",
+  "displaced_sort": 100000,
+  "displaced_source": "The City Paper Bogotá",
+  "displaced_url": "https://thecitypaperbogota.com/news/de-la-espriella-orders-temporary-militarization-of-cucuta/",
+  "parties": [
+   {
+    "side": "Colombian government",
+    "members": "President Abelardo de la Espriella, the army and National Police"
+   },
+   {
+    "side": "ELN",
+    "members": "National Liberation Army guerrillas"
+   },
+   {
+    "side": "FARC dissidents",
+    "members": "Factions including the EMBF and CNEB"
+   },
+   {
+    "side": "Other armed groups",
+    "members": "Clan del Golfo, ACSN, Comuneros del Sur"
+   }
+  ],
+  "talks_status": "No talks",
+  "talks": "President De la Espriella formally ended all talks with armed groups on 11 September 2026, revoking negotiators' credentials and offering no political recognition. The UN Verification Mission's mandate was due to expire on 31 October 2026, with Colombia asking the Security Council to drop rural reform monitoring.",
+  "talks_source": "Anadolu Agency",
+  "talks_url": "https://www.aa.com.tr/en/americas/colombian-president-dismantles-total-peace-policy-shuts-down-all-peace-talks/4054864",
+  "timeline": [
+   {
+    "date": "Jan 2025",
+    "event": "The ELN launches an offensive against FARC dissidents in Catatumbo, displacing tens of thousands."
+   },
+   {
+    "date": "Aug 2026",
+    "event": "Abelardo de la Espriella takes office as president on 7 August."
+   },
+   {
+    "date": "Sep 2026",
+    "event": "A drone attack and clash at a military unit in Ocaña kills at least three soldiers; local authorities blame the ELN."
+   },
+   {
+    "date": "Sep 2026",
+    "event": "The president ends all peace talks with armed groups on 11 September."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Former Cúcuta official Miguel Castellanos Serrano is assassinated on 26 October, and an explosive device injures people the next day."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "The president orders the temporary militarization of Cúcuta on 29 October."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "venezuela",
+  "name": "Venezuela: US intervention and political transition",
+  "region": "Americas",
+  "countries": [
+   "Venezuela",
+   "United States"
+  ],
+  "intensity": "Low-level",
+  "started": "Jan 2026",
+  "duration_note": "The US boat strike campaign began in September 2025; the political crisis follows the disputed 2024 election.",
+  "summary": "US forces captured Nicolás Maduro on 3 January 2026, and acting President Delcy Rodríguez now governs with US recognition; no new US strike inside Venezuela was found since a joint June operation that killed Tren de Aragua's leader. The dispute is now over elections: Rodríguez has set no date, while María Corina Machado, back since 25 October, backs a US-outlined 2027 vote.",
+  "casualties": "~75 (US) to 100+ (Venezuela) killed in Jan 2026 raid",
+  "casualties_basis": "Total deaths in the 3 January operation, with US officials assessing about 75 and Venezuela's interior minister saying about 100; this excludes the separate US boat strikes, which AP counts at at least 235 dead across 70 attacks in the Caribbean and Pacific as of October 2026.",
+  "casualties_sort": 100,
+  "casualties_source": "CNBC, citing Venezuelan government; Washington Post, citing US officials",
+  "casualties_url": "https://www.cnbc.com/2026/01/07/us-venezuela-military-operation-maduro-injuries-casualties.html",
+  "displaced": "~6.98 million abroad in Latin America and Caribbean",
+  "displaced_basis": "Venezuelan refugees and migrants in the region as of 20 August 2026 per R4V, co-led by UNHCR and IOM, which says the real number is likely higher; UNHCR gives nearly 7.9 million globally on an undated page. Most left before the 2026 intervention, and this is not displacement caused by it.",
+  "displaced_sort": 6980000,
+  "displaced_source": "R4V platform, via The Rio Times",
+  "displaced_url": "https://www.riotimesonline.com/venezuela-acnur-overwhelming-reconstruction-return-migrants-2026",
+  "parties": [
+   {
+    "side": "United States",
+    "members": "Trump administration, US Southern Command"
+   },
+   {
+    "side": "Venezuelan interim government",
+    "members": "Acting President Delcy Rodríguez and state security forces"
+   },
+   {
+    "side": "Opposition",
+    "members": "María Corina Machado's Vente Venezuela, and other opposition factions in talks with the government"
+   },
+   {
+    "side": "Armed groups",
+    "members": "Tren de Aragua, ELN"
+   }
+  ],
+  "talks_status": "Talks active",
+  "talks": "The government and an opposition faction, without Machado's movement, have negotiated since August 2026 on renewing the top court and electoral council, with US backing. In late October 2026, Rodríguez ruled out immediate elections and Machado backed a US-outlined plan for a 2027 presidential vote.",
+  "talks_source": "Reuters, via WHBL",
+  "talks_url": "https://whbl.com/2026/10/29/us-has-proposed-venezuela-elections-for-2027-opposition-leader-says/",
+  "timeline": [
+   {
+    "date": "Sep 2025",
+    "event": "The US begins military strikes on boats it alleges carry drugs."
+   },
+   {
+    "date": "Jan 2026",
+    "event": "US strikes on Caracas and a raid capture Maduro on 3 January; Delcy Rodríguez becomes acting president."
+   },
+   {
+    "date": "Mar 2026",
+    "event": "The US restores diplomatic relations and recognizes Rodríguez's government, per CFR."
+   },
+   {
+    "date": "Jun 2026",
+    "event": "A US strike with Venezuelan cooperation kills Tren de Aragua leader Niño Guerrero on 12 June."
+   },
+   {
+    "date": "Jun 2026",
+    "event": "Twin earthquakes strike near Caracas on 24 June, adding to the humanitarian crisis."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Machado returns on 25 October; on 29 October Rodríguez rules out immediate elections and Machado backs a 2027 vote."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "mozambique",
+  "name": "Mozambique: Cabo Delgado insurgency",
+  "region": "Sub-Saharan Africa",
+  "countries": [
+   "Mozambique",
+   "Rwanda"
+  ],
+  "intensity": "Active conflict",
+  "started": "Oct 2017",
+  "duration_note": "",
+  "summary": "Islamic State-linked insurgents keep raiding villages and roads in Cabo Delgado and have reached neighboring Niassa, with violence touching all 17 Cabo Delgado districts for the first time this year. A UN monitoring report estimated 400 to 500 fighters, and Rwandan forces continue to support Mozambique's military.",
+  "casualties": "6,632 reported deaths since Oct 2017 (ACLED)",
+  "casualties_basis": "ACLED's total reported fatalities in Cabo Delgado from 1 October 2017 to 14 June 2026, including 2,772 civilians; reported counts are likely incomplete, and later press reports cite more than 6,600.",
+  "casualties_sort": 6632,
+  "casualties_source": "ACLED, Mozambique Conflict Monitor",
+  "casualties_url": "https://acleddata.com/update/mozambique-conflict-monitor-update-17-june-2026",
+  "displaced": "1.3 million+ have fled during the conflict (UN)",
+  "displaced_basis": "Cumulative number who have fled since 2017 per the UN, not the number displaced today, and Zitamar and Lusa cite more than 1.2 million; Al Jazeera reports at least 28,163 newly displaced from January to July 2026.",
+  "displaced_sort": 1300000,
+  "displaced_source": "UN, via Al Jazeera",
+  "displaced_url": "https://www.aljazeera.com/news/2026/8/26/why-northern-mozambiques-surging-violence-is-worsening-displacement-crisis",
+  "parties": [
+   {
+    "side": "Mozambican government and allies",
+    "members": "Mozambican armed forces, Rwanda Defence Force"
+   },
+   {
+    "side": "Insurgents",
+    "members": "Islamic State Mozambique, also known locally as al-Shabab or Ahlu Sunnah Wal Jamaa"
+   }
+  ],
+  "talks_status": "No talks",
+  "talks": "No talks were found as of October 2026. Al Jazeera reported in August 2026 that President Daniel Chapo has signaled interest in negotiations, though it is unclear who would negotiate for the insurgents.",
+  "talks_source": "Al Jazeera",
+  "talks_url": "https://www.aljazeera.com/news/2026/8/26/why-northern-mozambiques-surging-violence-is-worsening-displacement-crisis",
+  "timeline": [
+   {
+    "date": "Oct 2017",
+    "event": "ACLED's count of the Cabo Delgado insurgency begins with the first attacks."
+   },
+   {
+    "date": "Jun 2026",
+    "event": "A two-month insurgent campaign in southern Cabo Delgado leaves over 21,000 people in displacement centers, per IOM."
+   },
+   {
+    "date": "Jun 2026",
+    "event": "Maputo confirms it will finance the continued presence of Rwandan forces."
+   },
+   {
+    "date": "Aug 2026",
+    "event": "A UN monitoring report estimates the group has grown to 400 to 500 fighters."
+   },
+   {
+    "date": "Sep 2026",
+    "event": "Insurgents attack a safari camp in Niassa province, looting and burning it."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "IOM records at least 4,445 people displaced between 21 September and 2 October, mainly in Macomia and Mocímboa da Praia."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "cameroon",
+  "name": "Cameroon: Anglophone conflict and Far North insurgency",
+  "region": "Sub-Saharan Africa",
+  "countries": [
+   "Cameroon",
+   "Nigeria"
+  ],
+  "intensity": "Active conflict",
+  "started": "Oct 2016",
+  "duration_note": "Lawyer and teacher protests began in late 2016 and became an armed conflict by 2017; the Far North faces a separate insurgency linked to Boko Haram and Islamic State West Africa Province.",
+  "summary": "The Anglophone conflict reached ten years in October 2026 with separatist lockdowns and attacks still disrupting schools. In the Far North, a September raid near Makary killed 15 people and over 10,700 people have left Waza subdivision since.",
+  "casualties": "6,500 to 10,000+ est. deaths, Anglophone regions",
+  "casualties_basis": "Campaign groups' estimate of total deaths in the North-West and South-West since 2016, with a partial list of about 4,000 reported deaths and no definitive toll; it excludes the Far North, for which no total was found.",
+  "casualties_sort": 6500,
+  "casualties_source": "CHRDA and Global Campaign for Peace & Justice in Cameroon, via Pan African Visions",
+  "casualties_url": "https://panafricanvisions.com/2026/10/cameroons-anglophone-crisis-marks-10-years-as-rights-groups-release-partial-list-of-4000-reported-deaths/",
+  "displaced": "510,000+ IDPs Far North; 334,000+ IDPs Anglophone",
+  "displaced_basis": "OCHA figures reported by ACAPS: over 510,000 internally displaced in the Far North as of March 2026, and over 334,000 internally displaced plus more than 76,000 refugees in Nigeria from the Anglophone regions as of February 2025; campaign groups claim about 1.5 million displaced, which is hard to verify. The sort value uses the Far North figure alone because the dates differ.",
+  "displaced_sort": 510000,
+  "displaced_source": "OCHA, via ACAPS",
+  "displaced_url": "https://www.acaps.org/en/countries/cameroon",
+  "parties": [
+   {
+    "side": "Cameroonian government",
+    "members": "President Paul Biya's government and security forces, including the Rapid Intervention Battalion"
+   },
+   {
+    "side": "Anglophone separatists",
+    "members": "Armed groups seeking independence for the North-West and South-West regions"
+   },
+   {
+    "side": "Jihadist groups",
+    "members": "Boko Haram, Islamic State West Africa Province"
+   }
+  ],
+  "talks_status": "No talks",
+  "talks": "Global R2P reports no ongoing talks as of March 2026, and says President Biya rejected a mediation attempt by former African presidents, according to Thabo Mbeki in May 2025. Rights groups renewed calls for inclusive dialogue in October 2026.",
+  "talks_source": "Global Centre for the Responsibility to Protect",
+  "talks_url": "https://www.globalr2p.org/countries/cameroon/",
+  "timeline": [
+   {
+    "date": "Oct 2016",
+    "event": "Protests by lawyers begin in the North-West and South-West, later joined by teachers."
+   },
+   {
+    "date": "2017",
+    "event": "Unrest becomes an armed conflict between government forces and separatist groups."
+   },
+   {
+    "date": "Feb 2026",
+    "event": "The village of Mbat is burned and looted, forcing about 850 residents to flee."
+   },
+   {
+    "date": "Sep 2026",
+    "event": "Armed men attack a teacher training college in Wum on 8 September, killing a senior police officer and abducting five teachers."
+   },
+   {
+    "date": "Sep 2026",
+    "event": "A raid near Makary in the Far North kills 15 people and sets off a wave of displacement."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Rights groups release a partial list of about 4,000 reported deaths on the conflict's tenth anniversary."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "ecuador",
+  "name": "Ecuador: gang violence and internal armed conflict",
+  "region": "Americas",
+  "countries": [
+   "Ecuador",
+   "United States"
+  ],
+  "intensity": "High intensity",
+  "started": "Jan 2024",
+  "duration_note": "President Daniel Noboa declared an internal armed conflict against gangs on 9 January 2024.",
+  "summary": "Homicides are down 8.1% in the first nine months of 2026, but this is still among the deadliest periods on record and killings are rising in El Oro and many smaller cantons. Gangs are spreading into Quito, which has been under a state of emergency since September, as the military crackdown continues with US assistance.",
+  "casualties": "6,285 homicide victims, Jan to Sep 2026",
+  "casualties_basis": "All homicide victims in Interior Ministry data analyzed by Primicias, down from 6,838 a year earlier; not all are confirmed conflict deaths, and the intensity label rests on this total and 667 deaths in multiple-victim events, since no gang-only count was found.",
+  "casualties_sort": 6285,
+  "casualties_source": "Ecuador Interior Ministry data, via Primicias",
+  "casualties_url": "https://www.primicias.ec/seguridad/ecuador-masacres-2026-homicidios-ataques-victimas-multiples-muertes-violentas-135501/",
+  "displaced": "300,000+ internally displaced",
+  "displaced_basis": "Figure given by Americas Quarterly in August 2026, without naming a primary source or a period; no UN figure was found.",
+  "displaced_sort": 300000,
+  "displaced_source": "Americas Quarterly",
+  "displaced_url": "https://www.americasquarterly.org/article/ecuador-daniel-noboas-crackdown-at-a-crossroads/",
+  "parties": [
+   {
+    "side": "Ecuadorian government",
+    "members": "President Daniel Noboa, the military and police, with US military advisers"
+   },
+   {
+    "side": "Criminal gangs",
+    "members": "Los Lobos, Los Choneros, Los Tiguerones and others"
+   }
+  ],
+  "talks_status": "No talks",
+  "talks": "No negotiations between the government and gangs were found as of October 2026. The government is pursuing a military crackdown, with about 14 major gang leaders captured or killed in the year to August 2026.",
+  "talks_source": "Americas Quarterly",
+  "talks_url": "https://www.americasquarterly.org/article/ecuador-daniel-noboas-crackdown-at-a-crossroads/",
+  "timeline": [
+   {
+    "date": "Jan 2024",
+    "event": "President Noboa declares an internal armed conflict against criminal gangs."
+   },
+   {
+    "date": "2025",
+    "event": "Ecuador records 9,216 homicides, its most violent year on record, per the Interior Ministry."
+   },
+   {
+    "date": "Dec 2025",
+    "event": "ACLED names Ecuador among ten crisis areas on its 2026 Conflict Watchlist."
+   },
+   {
+    "date": "Aug 2026",
+    "event": "Noboa announces a security plan for Quito, deploying about 4,000 police and military personnel."
+   },
+   {
+    "date": "Sep 2026",
+    "event": "Quito is placed under a 60-day state of emergency."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Reuters reports gangs are establishing themselves in Quito neighborhoods through local drug sales."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "sudan",
+  "name": "Sudan civil war",
+  "region": "Sub-Saharan Africa",
+  "countries": [
+   "Sudan"
+  ],
+  "intensity": "High intensity",
+  "started": "Apr 2023",
+  "duration_note": "The army and RSF jointly seized power in a 2021 coup before turning on each other",
+  "summary": "The army (SAF) and the Rapid Support Forces (RSF) are fighting across Kordofan, Darfur and Blue Nile, with drones now the leading killer of civilians according to the UN. UN investigators warn of growing danger to civilians in army-held El Obeid.",
+  "casualties": "~59,000 killed (ACLED); 200,000+ (aid workers)",
+  "casualties_basis": "ACLED's 59,000 counts reported deaths since April 2023 and is a conservative minimum that excludes indirect deaths; aid workers' estimate of more than 200,000 (reported by AFP) is far higher and not independently verified.",
+  "casualties_sort": 59000,
+  "casualties_source": "ACLED, via Al Jazeera",
+  "casualties_url": "https://www.aljazeera.com/news/2026/10/19/160-reported-killed-in-escalating-drone-attacks-across-sudan",
+  "displaced": "~13.2M (8.6M internally + 4.6M abroad)",
+  "displaced_basis": "IOM figures from September 2026 for people still displaced inside Sudan plus those who fled to neighbouring countries; IOM separately counts over 5.1 million returnees, and an AFP report the same week gave a lower 11.3 million total.",
+  "displaced_sort": 13200000,
+  "displaced_source": "IOM, via UNifeed",
+  "displaced_url": "https://media.un.org/unifeed/en/asset/d363/d3632707",
+  "parties": [
+   {
+    "side": "Sudanese Armed Forces (SAF)",
+    "members": "Army-led government under Abdel Fattah al-Burhan and allied forces"
+   },
+   {
+    "side": "Rapid Support Forces (RSF)",
+    "members": "Paramilitary led by Mohamed Hamdan Dagalo (Hemedti), with its self-declared Tasis administration"
+   }
+  ],
+  "talks_status": "Stalled",
+  "talks": "A Geneva consultative meeting of nearly two dozen countries on 21 October 2026 sought a path to a ceasefire, but neither the Sudanese government nor the RSF took part. As of August 2026 a US-backed 90-day truce was stuck, with the SAF demanding RSF withdrawal from cities and the RSF calling that surrender.",
+  "talks_source": "UN News; August position per Africanews",
+  "talks_url": "https://news.un.org/en/story/2026/10/1168638",
+  "timeline": [
+   {
+    "date": "Apr 2023",
+    "event": "Fighting breaks out between the SAF and RSF."
+   },
+   {
+    "date": "Oct 2025",
+    "event": "RSF takes El Fasher after an 18-month siege; UN investigators later report 'hallmarks of genocide', and the RSF denies targeting civilians."
+   },
+   {
+    "date": "Aug 2026",
+    "event": "US-brokered truce effort hits obstacles over demands that the RSF leave cities it holds."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "UN human rights office records at least 306 killed by drone strikes between 1 and 21 October."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Geneva consultative meeting ends its session without the warring parties present."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "UN fact-finding mission warns of drone escalation; strikes on a Nyala market bring disputed tolls of 21 to more than 100 dead."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "south-sudan",
+  "name": "South Sudan conflict",
+  "region": "Sub-Saharan Africa",
+  "countries": [
+   "South Sudan"
+  ],
+  "intensity": "High intensity",
+  "started": "Mar 2025",
+  "duration_note": "Civil war 2013–2018, ended by a 2018 peace deal now largely unimplemented",
+  "summary": "Government forces and opposition-aligned fighters continue to clash in Jonglei and Upper Nile while intercommunal attacks kill scores elsewhere. Riek Machar is on trial and elections are set for 22 December 2026, with his party excluded.",
+  "casualties": "767 civilians killed in Jan–Mar 2026 (UNMISS)",
+  "casualties_basis": "UN mission count of civilians killed in one quarter, which it says likely understates harm because of access limits; it is not a cumulative war toll, and no cumulative figure was found.",
+  "casualties_sort": 767,
+  "casualties_source": "UNMISS quarterly brief",
+  "casualties_url": "https://unmiss.unmissions.org/sites/default/files/2026-06/quarterly_brief_on_violence_affecting_civilians_january_-_march_2026.pdf",
+  "displaced": "~4.4M (2.4M refugees + nearly 2M internally)",
+  "displaced_basis": "UNHCR figures from June 2026 for South Sudanese refugees hosted in the region and people internally displaced, including more than 300,000 uprooted around Jonglei since December 2025.",
+  "displaced_sort": 4400000,
+  "displaced_source": "UNHCR, via ecoi.net",
+  "displaced_url": "https://www.ecoi.net/de/dokument/2141387.html",
+  "parties": [
+   {
+    "side": "Government",
+    "members": "President Salva Kiir and the South Sudan People's Defence Forces (SSPDF)"
+   },
+   {
+    "side": "Opposition",
+    "members": "SPLM-IO, led by detained former First Vice President Riek Machar, and aligned forces"
+   },
+   {
+    "side": "Community armed groups",
+    "members": "White Army (Machar denies leading it) and local militias in intercommunal fighting"
+   }
+  ],
+  "talks_status": "Stalled",
+  "talks": "In October 2026 the UN Commission on Human Rights in South Sudan said the 2018 peace deal was being dismantled and urged a ceasefire and inclusive settlement. Kiir met African Union committee chair Cyril Ramaphosa in early October, but no negotiation with the opposition was reported.",
+  "talks_source": "Radio Tamazuj",
+  "talks_url": "https://www.radiotamazuj.org/en/news/article/un-commission-warns-of-constitutional-coup-in-south-sudan",
+  "timeline": [
+   {
+    "date": "Mar 2025",
+    "event": "Attack on the Nasir garrison, which prosecutors say killed 257 soldiers; Machar is later put under house arrest."
+   },
+   {
+    "date": "Dec 2025",
+    "event": "Fighting in Jonglei escalates, with opposition-linked forces seizing government outposts."
+   },
+   {
+    "date": "Jan 2026",
+    "event": "OCHA relays local estimates of more than 180,000 displaced in Jonglei; the government says it is 'not at war'."
+   },
+   {
+    "date": "Mar 2026",
+    "event": "SSPDF forces take Akobo, and thousands of civilians flee to Ethiopia."
+   },
+   {
+    "date": "Sep 2026",
+    "event": "Kiir dissolves the transitional government and parliament and installs a caretaker administration, according to the UN commission."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Coordinated cattle raids in Warrap kill at least 72, according to the regional government; Machar tells the court he does not lead the White Army."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "ethiopia",
+  "name": "Ethiopia conflicts (Tigray, Amhara, Oromia)",
+  "region": "Sub-Saharan Africa",
+  "countries": [
+   "Ethiopia",
+   "Eritrea"
+  ],
+  "intensity": "High intensity",
+  "started": "Sep 2026",
+  "duration_note": "Tigray war 2020–22; insurgencies in Amhara and Oromia continued after it; ACLED dates renewed Tigray fighting to 1 Aug 2026",
+  "summary": "Federal forces retook Mekelle on 4 October and advanced to the Eritrean border, while TPLF commanders vow to keep fighting and insurgencies continue in Amhara and Oromia. Addis Ababa accuses Eritrea of sending troops into Tigray, which Eritrea denies.",
+  "casualties": "No reliable figure found",
+  "casualties_basis": "No overall toll for the current fighting was found; Al Jazeera's reporting gives no totals, and available numbers are single incidents or unverified army claims such as more than 270 rebel fighters killed.",
+  "casualties_sort": null,
+  "casualties_source": "",
+  "casualties_url": "",
+  "displaced": "~1.9M internally (UNHCR, May 2026)",
+  "displaced_basis": "UNHCR count of 1,919,993 internally displaced as of 31 May 2026, before the September escalation; the UN said on 10 October that people were being displaced across Tigray but verified figures were not yet available.",
+  "displaced_sort": 1919993,
+  "displaced_source": "UNHCR statistics, May 2026",
+  "displaced_url": "https://data.unhcr.org/en/documents/download/123000",
+  "parties": [
+   {
+    "side": "Federal government",
+    "members": "Ethiopian National Defence Force under Prime Minister Abiy Ahmed, and allied fighters"
+   },
+   {
+    "side": "Seven-group rebel alliance",
+    "members": "Tigray People's Liberation Front (TPLF), Amhara Fano National Movement, Oromo Liberation Army (OLA) and others"
+   },
+   {
+    "side": "Eritrea",
+    "members": "Accused by Addis Ababa of backing the TPLF and deploying troops; Eritrea denies invading"
+   }
+  ],
+  "talks_status": "No talks",
+  "talks": "No peace talks were reported as of October 2026. On 10 October the UN Secretary-General urged signatories of the 2022 Pretoria Agreement to return to dialogue and offered his good offices, and on 23 October a federally appointed official's call to disarm was rejected by TPLF commanders.",
+  "talks_source": "UN News",
+  "talks_url": "https://news.un.org/en/story/2026/10/1168570",
+  "timeline": [
+   {
+    "date": "2022",
+    "event": "Pretoria Agreement ends the Tigray war."
+   },
+   {
+    "date": "May 2026",
+    "event": "TPLF reinstates the pre-2020 regional government, according to ACLED."
+   },
+   {
+    "date": "Sep 2026",
+    "event": "Seven-group alliance forms; on 23 September Tigrayan forces seize the Mekelle, Aksum and Shire airports, and each side blames the other for the fighting."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Federal and allied forces retake Mekelle on 4 October."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Ethiopia tells the UN Security Council that Eritrean troops moved up to 60 km into Tigray; Eritrea rejects this."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Abiy announces a six-month caretaker administration for Tigray."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Church reports 60 Orthodox Christians killed in Oromia; drone strikes in Amhara and Tigray kill at least 25, according to witnesses and a medical source."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "somalia",
+  "name": "Somalia and al-Shabaab",
+  "region": "Sub-Saharan Africa",
+  "countries": [
+   "Somalia"
+  ],
+  "intensity": "High intensity",
+  "started": "2006",
+  "duration_note": "Al-Shabaab grew out of the Islamic Courts Union after Ethiopia's December 2006 invasion",
+  "summary": "A late-October al-Shabaab ambush in southern Somalia hit federal reinforcements, with sharply conflicting tolls, as opposition uprisings and clan disputes stretch the government. The UN assistance mission closes on 31 October and the US plans to end logistical support for the AU mission after December.",
+  "casualties": "No reliable figure found",
+  "casualties_basis": "No current overall toll was found; figures for the 26 October clash are disputed and unverified, with an officer citing at least 20 soldiers killed, al-Shabaab claiming 321 and the government claiming 75 militants killed.",
+  "casualties_sort": null,
+  "casualties_source": "",
+  "casualties_url": "",
+  "displaced": "~4.1M (3.35M internally + ~798K refugees)",
+  "displaced_basis": "UNHCR counts of 3,350,457 internally displaced (31 July 2026) and 797,903 Somali refugees (30 September 2026); displacement is driven by drought and floods as well as conflict, and EU and ACAPS pages cite 3.8 to 4 million IDPs.",
+  "displaced_sort": 4148360,
+  "displaced_source": "UNHCR Operational Data Portal; UNHCR Somalia page",
+  "displaced_url": "https://data.unhcr.org/en/situations/horn",
+  "parties": [
+   {
+    "side": "Federal Government of Somalia",
+    "members": "Somali National Army and allied militias, with AUSSOM, Turkish, US and UAE support"
+   },
+   {
+    "side": "Al-Shabaab",
+    "members": "Al-Qaeda-affiliated insurgent group"
+   },
+   {
+    "side": "Armed opposition",
+    "members": "South West State forces aligned with deposed president Laftagareen and other clan-based groups"
+   }
+  ],
+  "talks_status": "No talks",
+  "talks": "No peace talks between the government and al-Shabaab were reported as of October 2026. Critical Threats reports only an early-October cessation-of-hostilities deal between al-Shabaab and Hawadle factions, while the electoral commission has set votes for April and May 2027.",
+  "talks_source": "Critical Threats Project",
+  "talks_url": "https://www.criticalthreats.org/analysis/al-shabaab-somalia-algeria-niger-libya-morocco-haftar",
+  "timeline": [
+   {
+    "date": "Aug 2022",
+    "event": "President Hassan Sheikh Mohamud declares 'total war' on al-Shabaab."
+   },
+   {
+    "date": "Jan 2025",
+    "event": "AUSSOM replaces the previous African Union mission."
+   },
+   {
+    "date": "Mar 2026",
+    "event": "Opposition lawmakers condemn constitutional changes extending the president's term."
+   },
+   {
+    "date": "Jun 2026",
+    "event": "Government and opposition-aligned forces clash in Mogadishu amid anger over the election delay."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Electoral commission sets parliamentary elections for April 2027 and presidential elections for May 2027."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Al-Shabaab ambushes federal forces in southern Somalia on 26 October; tolls are disputed and unverified."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "drc-m23",
+  "name": "Eastern DR Congo (M23/Rwanda)",
+  "region": "Sub-Saharan Africa",
+  "countries": [
+   "Democratic Republic of the Congo",
+   "Rwanda"
+  ],
+  "intensity": "High intensity",
+  "started": "2021",
+  "duration_note": "M23 re-emerged in 2021 after an earlier 2012–13 rebellion; it took Goma and Bukavu in early 2025",
+  "summary": "Fighting continues in North and South Kivu between Congolese forces and the Kabila-led FRN coalition that replaced AFC/M23, with disputed claims around Uvira. The US sanctioned Rwanda's defence ministry on 29 October over alleged support for the rebels, which Rwanda denies.",
+  "casualties": "No reliable figure found",
+  "casualties_basis": "No 2026 cumulative toll was found; the UN human rights office documented incidents such as 319 civilians killed in July 2025, and CFR's about six million deaths since 1996 (citing FPRI) covers decades of wider conflict.",
+  "casualties_sort": null,
+  "casualties_source": "",
+  "casualties_url": "",
+  "displaced": "6.1M internally (UN); 7.4M+ (DRC government)",
+  "displaced_basis": "Nationwide internal displacement as stated to the Security Council on 29 September 2026 by the UN mission head and DRC's representative, who did not reconcile the figures; about 1.1 million Congolese refugees abroad, per UNHCR via CFR, are not included.",
+  "displaced_sort": 6100000,
+  "displaced_source": "UN Security Council meeting 10232 (auto-generated transcript)",
+  "displaced_url": "https://transcripts.un.org/en/sc/10232",
+  "parties": [
+   {
+    "side": "DRC government",
+    "members": "Armed forces (FARDC) and allied Wazalendo militias under President Félix Tshisekedi"
+   },
+   {
+    "side": "FRN coalition",
+    "members": "Former president Joseph Kabila, M23, Corneille Nangaa and allies such as Twirwaneho"
+   },
+   {
+    "side": "Rwanda",
+    "members": "Accused by the DRC, UN and US of backing M23 with troops; Rwanda denies this and cites the FDLR threat"
+   }
+  ],
+  "talks_status": "Talks active",
+  "talks": "DRC and Rwandan officers met under the Washington Accords in Germany on 20–22 October 2026, while the DRC–rebel Doha track is uncertain: a roadmap was agreed in August, but analysts fear the FRN's creation could undermine further talks. A civil society speaker told the UN in September that the ceasefire 'remains only on paper'.",
+  "talks_source": "Critical Threats Project, Congo War Security Review",
+  "talks_url": "https://www.criticalthreats.org/briefs/congo-war-security-review",
+  "timeline": [
+   {
+    "date": "Jan 2025",
+    "event": "M23 takes control of Goma; Bukavu follows in early 2025."
+   },
+   {
+    "date": "Jul 2025",
+    "event": "Ceasefire agreed under Qatari mediation, which Reuters reports is not being respected."
+   },
+   {
+    "date": "Dec 2025",
+    "event": "Rwandan and Congolese leaders sign the US-brokered Washington Accords."
+   },
+   {
+    "date": "Aug 2026",
+    "event": "DRC government and M23 agree a roadmap for talks at a meeting in Switzerland."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Kabila launches the FRN in Goma, replacing the AFC/M23 alliance; the government had not formally responded."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "US sanctions Rwanda's defence ministry and Zigama Credit and Savings Society; Rwanda denies backing M23."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "car",
+  "name": "Central African Republic conflict",
+  "region": "Sub-Saharan Africa",
+  "countries": [
+   "Central African Republic"
+  ],
+  "intensity": "Active conflict",
+  "started": "2013",
+  "duration_note": "Séléka and Christian militia fighting from 2013; a 2019 peace deal brought 14 armed groups into the political process",
+  "summary": "Disarmament and local elections are advancing, but the UN reports rising violence in the east linked to Sudan's war and suspected LRA attacks in the southeast. The Security Council must decide by mid-November on renewing the MINUSCA peacekeeping mission.",
+  "casualties": "No reliable figure found",
+  "casualties_basis": "No cumulative or past-year toll was found; CFR says only 'thousands' killed since 2013, and a 30 June 2026 attack on Am-Dafock killed 29 by the UN's count and 22 by the local sub-prefect's.",
+  "casualties_sort": null,
+  "casualties_source": "",
+  "casualties_url": "",
+  "displaced": "~1.15M (738K refugees + 417K internally)",
+  "displaced_basis": "UNHCR counts of 737,705 refugees and asylum-seekers from CAR (30 September 2026) and an estimated 416,615 internally displaced (31 August 2026), much of it dating from earlier years.",
+  "displaced_sort": 1154320,
+  "displaced_source": "UNHCR Operational Data Portal",
+  "displaced_url": "https://data.unhcr.org/en/situations/car",
+  "parties": [
+   {
+    "side": "Government",
+    "members": "President Faustin-Archange Touadéra, national armed forces (FACA) and Russian Africa Corps/Wagner personnel"
+   },
+   {
+    "side": "Armed groups",
+    "members": "FPRC and MDRPC elements (named by MINUSCA at Am-Dafock), AAKG militia and Lord's Resistance Army (suspected by the UN)"
+   },
+   {
+    "side": "UN peacekeepers",
+    "members": "MINUSCA, with more than 12,000 personnel"
+   }
+  ],
+  "talks_status": "Ceasefire shaky",
+  "talks": "The 2019 peace agreement and an April 2025 deal with 3R and UPC remain the framework, with 1,907 fighters disarmed since July 2025, according to the UN in October 2026. No new negotiations were reported, and violence continues in border areas.",
+  "talks_source": "UN News",
+  "talks_url": "https://news.un.org/en/story/2026/10/1168630",
+  "timeline": [
+   {
+    "date": "Feb 2019",
+    "event": "Government and 14 armed groups sign a peace agreement."
+   },
+   {
+    "date": "Apr 2025",
+    "event": "Government concludes a peace deal with the 3R and UPC armed groups."
+   },
+   {
+    "date": "Jul 2025",
+    "event": "3R and UPC are formally dissolved at a ceremony in Bangui."
+   },
+   {
+    "date": "Dec 2025",
+    "event": "Touadéra wins a contested third term."
+   },
+   {
+    "date": "Jun 2026",
+    "event": "Attack on Am-Dafock near the Sudan border displaces about 17,000 and injures six peacekeepers."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "UN envoy warns the Security Council against an early peacekeeper exit as Sudan's war spills across the border."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "ukraine",
+  "name": "Russia–Ukraine war",
+  "region": "Europe",
+  "countries": [
+   "Ukraine",
+   "Russia"
+  ],
+  "intensity": "High intensity",
+  "started": "Feb 2022",
+  "duration_note": "Fighting in Donbas since 2014",
+  "summary": "Russia occupies roughly 20 percent of Ukraine, with the heaviest ground fighting in Donetsk region, and both sides are running long-range strike campaigns. UN monitors recorded the highest September civilian toll of the full-scale war in 2026.",
+  "casualties": "17,605 civilians killed (UN verified, to 30 Sep 2026)",
+  "casualties_basis": "OHCHR-verified civilian deaths since 24 Feb 2022, as compiled by Statista, which OHCHR says may be an undercount; military deaths are separate and disputed: CSIS (Jul 2026) estimates 400,000–450,000 Russian and 125,000–150,000 Ukrainian troops killed, while Ukraine's General Staff claims a record 49,040 Russian killed and wounded in October alone (unverified).",
+  "casualties_sort": 17605,
+  "casualties_source": "OHCHR, compiled by Statista",
+  "casualties_url": "https://www.statista.com/statistics/1293492/ukraine-war-casualties/",
+  "displaced": "3.86M internally displaced; 5.7M refugees abroad (UNHCR)",
+  "displaced_basis": "3,856,000 IDPs per the UNHCR data portal (updated 30 Mar 2026; IOM put it at about 3.9M in June 2026) plus 5.7M refugees per UNHCR's country page (as of Jul 2025); the sort figure adds the two, so it mixes dates, and no 2026 refugee total was found.",
+  "displaced_sort": 9556000,
+  "displaced_source": "UNHCR",
+  "displaced_url": "https://data.unhcr.org/en/country/ukr/751",
+  "parties": [
+   {
+    "side": "Russia",
+    "members": "Russian Armed Forces"
+   },
+   {
+    "side": "Ukraine",
+    "members": "Armed Forces of Ukraine, with Western military and financial backing"
+   }
+  ],
+  "talks_status": "Stalled",
+  "talks": "On 21 Oct 2026 Putin agreed in principle to resume US-mediated talks with Ukraine after meeting US envoy Steve Witkoff; the Kremlin said technical-level talks could start on or after 10 Nov, possibly in Abu Dhabi. The sides remain far apart on Donetsk, NATO and whether to accept a ceasefire before a full deal.",
+  "talks_source": "Reuters via bdnews24",
+  "talks_url": "https://bdnews24.com/world/europe/mxlv299i5p",
+  "timeline": [
+   {
+    "date": "Feb 2022",
+    "event": "Russia launches its full-scale invasion of Ukraine."
+   },
+   {
+    "date": "Jul 2026",
+    "event": "CSIS estimates combined Russian and Ukrainian military casualties have passed 2 million."
+   },
+   {
+    "date": "Sep 2026",
+    "event": "UN monitors verify 328 civilians killed and 2,105 injured, the highest September total of the full-scale war."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Putin agrees in principle to resume US-mediated talks after 10 Nov, following Witkoff's Oslo and St Petersburg meetings."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "A localized ceasefire takes effect in Oleshky on 27 Oct to allow food aid into the city, per CFR."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "A Russian strike on a Dnipro train station kills 14 on 29 Oct, while Ukraine launches more than 600 drones toward Moscow, per CFR."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "israel-palestine",
+  "name": "Israeli–Palestinian conflict (Gaza and West Bank)",
+  "region": "Middle East & North Africa",
+  "countries": [
+   "Israel",
+   "Palestine"
+  ],
+  "intensity": "High intensity",
+  "started": "Oct 2023",
+  "duration_note": "Long-running conflict; Gaza ceasefire announced Oct 2025",
+  "summary": "Israeli strikes continue in Gaza under the October 2025 ceasefire, the stabilization force has not deployed, and Hamas has not handed over weapons. In the West Bank, a Hebron operation after a deadly 23 October attack on a checkpoint has forced out more than 3,000 Palestinians, per OCHA.",
+  "casualties": "74,555 killed in Gaza (Health Ministry, to 26 Oct 2026)",
+  "casualties_basis": "Gaza Health Ministry cumulative count since Oct 2023, including 1,559 since the ceasefire; it does not separate civilians from combatants, and OHCHR had separately verified 1,076 deaths from the ceasefire to end-July 2026. Hamas's 7 Oct 2023 attack killed over 1,200 in Israel (CFR), and a UN inquiry counted 254 Palestinians killed in West Bank air attacks to 30 Sep 2026; no current all-cause West Bank total was found.",
+  "casualties_sort": 74555,
+  "casualties_source": "Gaza Health Ministry via Al Jazeera",
+  "casualties_url": "https://www.aljazeera.com/news/2026/10/27/palestine-weekly-west-bank-under-siege-as-israelis-go-to-the-polls",
+  "displaced": "About 1.7M in Gaza displacement sites (OCHA, May 2026)",
+  "displaced_basis": "People hosted in about 1,600 Gaza displacement sites, an OCHA count from May 2026, not a total of everyone displaced; OCHA in Oct 2026 counted 1.98M needing shelter aid. West Bank figures are separate: about 30,000 displaced by Operation Iron Wall (UN via CFR) and more than 3,000 in Hebron since 23 Oct (OCHA).",
+  "displaced_sort": 1700000,
+  "displaced_source": "OCHA",
+  "displaced_url": "https://www.unocha.org/publications/report/occupied-palestinian-territory/opt-humanitarian-situation-report-25-may-2026",
+  "parties": [
+   {
+    "side": "Israel",
+    "members": "Israel Defense Forces and Israeli government"
+   },
+   {
+    "side": "Hamas and Palestinian factions",
+    "members": "Hamas and other armed groups in Gaza"
+   },
+   {
+    "side": "Palestinian Authority",
+    "members": "Administers parts of the West Bank; not a party to the Gaza fighting"
+   }
+  ],
+  "talks_status": "Ceasefire shaky",
+  "talks": "As of Oct 2026 the Gaza plan's later phases, Hamas disarmament and full Israeli withdrawal under a stabilization force, have not been implemented. Hamas accepted a Board of Peace disarmament proposal on 30 Jul 2026, while Netanyahu rejected it as inadequate; the 27 Oct Israeli election left no clear winner.",
+  "talks_source": "The Media Line; Al Jazeera",
+  "talks_url": "https://themedialine.org/headlines/board-of-peace-envoy-mladenov-presses-israel-hamas-at-un-over-stalled-gaza-deal/",
+  "timeline": [
+   {
+    "date": "Oct 2023",
+    "event": "Hamas-led attack on Israel is followed by Israel's war in Gaza."
+   },
+   {
+    "date": "Oct 2025",
+    "event": "Ceasefire is announced and all remaining hostages are released, per CFR."
+   },
+   {
+    "date": "Jul 2026",
+    "event": "Hamas accepts the Board of Peace disarmament proposal on 30 Jul; Israel objects to its terms."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "UN human rights office says killings continue one year after the ceasefire announcement, and Israeli deployment has expanded beyond 53 percent of Gaza."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Two gunmen kill two Israeli soldiers at a Hebron checkpoint on 23 Oct; the Israeli operation that follows displaces more than 3,000 Palestinians."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "A UN commission of inquiry accuses Israel of crimes against humanity in the West Bank and continuing genocide in Gaza; Israel rejects the findings."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Israel's 27 Oct election produces no clear majority in partial results."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "lebanon",
+  "name": "Israel–Hezbollah conflict in Lebanon",
+  "region": "Middle East & North Africa",
+  "countries": [
+   "Lebanon",
+   "Israel"
+  ],
+  "intensity": "High intensity",
+  "started": "Mar 2026",
+  "duration_note": "Cross-border fighting began Oct 2023",
+  "summary": "Israeli forces hold a zone in southern Lebanon and strikes continue near-daily despite truces and a June framework deal, while Hezbollah carries out attacks on Israeli troops. Israel reportedly controls about 20 percent of Lebanese territory, per CFR.",
+  "casualties": "4,387 killed in Lebanon since 2 Mar 2026 (Health Ministry)",
+  "casualties_basis": "Lebanese Health Ministry count of people killed by Israeli attacks from 2 Mar to 11 Oct 2026, not separating civilians from fighters; it reports 8,954 killed since 8 Oct 2023. Israeli military and civilian deaths are not included, and no current confirmed total for this front was found.",
+  "casualties_sort": 4387,
+  "casualties_source": "Lebanese Health Ministry via LBCI",
+  "casualties_url": "https://www.lbcgroup.tv/news/lebanon-news/962291/lebanons-health-ministry-says-4387-killed-12424-wounded-since-march-2/en",
+  "displaced": "499,784 still displaced in Lebanon (OCHA, 6 Jul 2026)",
+  "displaced_basis": "OCHA count of people still internally displaced as of 6 Jul 2026, after more than 1 million were displaced at the peak; no October figure was found, so the current number may differ. About 96,000 Israelis were displaced from northern Israel since Oct 2023, per CFR.",
+  "displaced_sort": 499784,
+  "displaced_source": "OCHA",
+  "displaced_url": "https://www.unocha.org/publications/report/lebanon/lebanon-flash-update-41-escalation-hostilities-lebanon-6-july-2026",
+  "parties": [
+   {
+    "side": "Israel",
+    "members": "Israel Defense Forces"
+   },
+   {
+    "side": "Hezbollah",
+    "members": "Hezbollah, backed by Iran; not a party to the June framework"
+   },
+   {
+    "side": "Lebanon",
+    "members": "Lebanese government and army, negotiating directly with Israel"
+   }
+  ],
+  "talks_status": "Ceasefire shaky",
+  "talks": "US-hosted Lebanon–Israel military talks at CENTCOM in Tampa ended around 22 Oct 2026 without a breakthrough or a date for another session. Lebanon wants a third-party verification mechanism and a timetable for the 26 Jun framework; Israel rejects these and wants direct military coordination.",
+  "talks_source": "The New Arab",
+  "talks_url": "https://www.newarab.com/news/lebanon-israel-talks-us-end-without-breakthrough",
+  "timeline": [
+   {
+    "date": "Mar 2026",
+    "event": "Hostilities resume on 2 Mar amid the Iran war, and Israel launches a ground invasion of southern Lebanon."
+   },
+   {
+    "date": "Jun 2026",
+    "event": "Lebanon and Israel agree to US-mediated truces on 4 and 26 Jun; the 26 Jun framework ties Israeli withdrawal to Hezbollah's disarmament, which Hezbollah rejects."
+   },
+   {
+    "date": "Jul 2026",
+    "event": "OCHA reports displacement falling but 499,784 people still displaced."
+   },
+   {
+    "date": "Aug 2026",
+    "event": "Israeli strikes kill at least 11 on 15 Aug, per Lebanese authorities, after a Hezbollah drone seriously wounds three soldiers, per the IDF."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Lebanese Health Ministry reports 4,387 killed since 2 Mar."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Tampa military talks end without progress as Israeli strikes and shelling continue."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "iran",
+  "name": "US/Israel–Iran war",
+  "region": "Middle East & North Africa",
+  "countries": [
+   "Iran",
+   "United States",
+   "Israel"
+  ],
+  "intensity": "High intensity",
+  "started": "Feb 2026",
+  "duration_note": "Began with US and Israeli strikes on 28 Feb 2026; preceded by a June 2025 Israel–Iran war",
+  "summary": "Major strikes have been on hold since Trump called off an attack on 1–2 Aug, but the US blockade of Iranian ports and Iran's closure of the Strait of Hormuz continue, with attacks on shipping rising. US officials say forces are being positioned to give Trump options if he resumes strikes.",
+  "casualties": "3,468 killed in Iran, official count (Apr 2026)",
+  "casualties_basis": "Iran's state Foundation of Martyrs count as of Apr 2026, disputed by others: HRANA documented 3,636 (1,701 civilians) to 7 Apr plus 48 from 8–17 Jul, while Hengaw (7,650) and IDF-cited (6,000+) figures run higher per Wikipedia's compilation. Wikipedia also lists 72 deaths in Israel to 5 Aug and 21 US service members per the Pentagon to 21 Jul; no newer aggregate was found.",
+  "casualties_sort": 3468,
+  "casualties_source": "Foundation of Martyrs via The New Arab",
+  "casualties_url": "https://www.newarab.com/news/iran-reports-3468-dead-war-us-israel-official",
+  "displaced": "Up to 3.2M displaced inside Iran (UNHCR, Mar 2026)",
+  "displaced_basis": "UNHCR's early-war estimate of temporary internal displacement (600,000 to 1 million households) from 12 Mar 2026; no newer figure was found, and many may have returned during later pauses.",
+  "displaced_sort": 3200000,
+  "displaced_source": "UNHCR",
+  "displaced_url": "https://www.unhcr.ca/news/unhcr-up-to-3-2-million-iranians-temporarily-displaced-in-iran-as-conflict-intensifies/",
+  "parties": [
+   {
+    "side": "United States and Israel",
+    "members": "US forces including CENTCOM; Israel Defense Forces"
+   },
+   {
+    "side": "Iran",
+    "members": "Iranian armed forces and Islamic Revolutionary Guard Corps, with allied groups including Hezbollah and the Houthis"
+   }
+  ],
+  "talks_status": "Stalled",
+  "talks": "As of 29 Oct 2026 Iran says it awaits US acceptance of seven conditions, including lifting the blockade, and had not answered a letter from Vice President Vance; Trump said that outreach was about medical supplies, not peace talks. Trump earlier rejected Iran's seven-day reopening proposal, and mediators include Qatar and Pakistan.",
+  "talks_source": "Fox News",
+  "talks_url": "https://foxnews.com/live-news/us-iran-war-trump-military-options-strait-hormuz-10-29-26",
+  "timeline": [
+   {
+    "date": "Feb 2026",
+    "event": "The US and Israel strike Iran on 28 Feb, killing Supreme Leader Ali Khamenei; Iran retaliates and closes the Strait of Hormuz."
+   },
+   {
+    "date": "Apr 2026",
+    "event": "A Pakistan-mediated two-week ceasefire takes hold around 7–8 Apr; the Islamabad talks fail and the US blockades Iranian ports."
+   },
+   {
+    "date": "Jun 2026",
+    "event": "An interim deal, the Islamabad memorandum, sets a 60-day negotiating window."
+   },
+   {
+    "date": "Jul 2026",
+    "event": "The ceasefire collapses around 8 Jul, and the US reinstates the blockade on 14 Jul."
+   },
+   {
+    "date": "Aug 2026",
+    "event": "Trump calls off a planned attack on 1–2 Aug, saying a deal may be possible."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Iran says Hormuz stays closed until its seven conditions are met; UKMTO records a record week of ship attacks."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "US officials say military options are being prepared as Iran waits on its conditions."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "yemen",
+  "name": "Yemen war and Red Sea attacks",
+  "region": "Middle East & North Africa",
+  "countries": [
+   "Yemen",
+   "Saudi Arabia"
+  ],
+  "intensity": "High intensity",
+  "started": "Aug 2026",
+  "duration_note": "War dates back at least to 2015; the 2022 UN truce collapsed in July 2026",
+  "summary": "The UN envoy says Yemen has returned to full-scale war: Houthi and government forces are fighting around Taiz and the Red Sea coast, while Houthi missiles and Saudi-led airstrikes cross the border. The Houthis declared a blockade on Saudi-affiliated shipping at Bab el-Mandeb in July.",
+  "casualties": "1,677 killed since Aug 2026 (WHO, to 25 Oct)",
+  "casualties_basis": "WHO count of deaths in the escalation, with 7,395 injured, mixing civilians and fighters; OHCHR has separately verified only 57 civilians killed so far, and government and Houthi battle claims are unverified. A UN estimate for the longer war is 377,000 deaths from 2015 to early 2022, about 60 percent from indirect causes, per CFR.",
+  "casualties_sort": 1677,
+  "casualties_source": "WHO via Middle East Monitor",
+  "casualties_url": "https://www.middleeastmonitor.com/20261030-who-yemen-escalation-leaves-over-9000-dead-or-injured-displaces-276000/",
+  "displaced": "5.2M IDPs pre-escalation; 278,443 newly displaced since Aug",
+  "displaced_basis": "UNHCR portal figures: 5,201,088 IDPs to 31 Aug 2026 and 278,443 newly displaced from 1 Aug to 25 Oct (IOM), which may overlap, so they are not added together. The sort field uses the pre-September total.",
+  "displaced_sort": 5201088,
+  "displaced_source": "UNHCR data portal",
+  "displaced_url": "https://data.unhcr.org/en/country/Yem",
+  "parties": [
+   {
+    "side": "Houthis",
+    "members": "Ansar Allah, aligned with Iran"
+   },
+   {
+    "side": "Yemeni government and Saudi-led coalition",
+    "members": "Internationally recognised government forces, supported by the Saudi-led coalition"
+   }
+  ],
+  "talks_status": "No talks",
+  "talks": "No negotiations are under way as of Oct 2026. On 9 Oct UN envoy Hans Grundberg told the Security Council battlefield gains cannot replace negotiations, and on 15 Oct the Council condemned Houthi attacks on Saudi Arabia and shipping and demanded a halt to the escalation.",
+  "talks_source": "Al Jazeera",
+  "talks_url": "https://www.aljazeera.com/news/2026/10/9/un-envoy-warns-yemen-has-returned-to-full-scale-war-urges-dialogue",
+  "timeline": [
+   {
+    "date": "Jul 2026",
+    "event": "The 2022 UN-brokered truce collapses; the Houthis declare a blockade on Saudi-affiliated shipping and strike Abha airport."
+   },
+   {
+    "date": "Aug 2026",
+    "event": "An attack on the cargo ship Tihamah in the Bab al-Mandeb kills at least six, per Yemen's government; the Houthis did not claim it."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Government forces launch the Saudi-backed Dawn of Yemen offensive on 5 Oct."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "A missile strike on Riyadh's King Khalid Airport on 10 Oct kills 13 travelers and injures more than 300, per Arab News."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Security Council issues a presidential statement on 15 Oct condemning Houthi attacks on Saudi Arabia and on shipping."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Houthis re-encircle Taiz, and Shabwa authorities raise the toll from a Houthi missile attack on a base to 73."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Saudi Arabia says it intercepted two Houthi ballistic missiles aimed at Riyadh on 29 Oct."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "syria",
+  "name": "Syria conflict",
+  "region": "Middle East & North Africa",
+  "countries": [
+   "Syria",
+   "Israel",
+   "Jordan"
+  ],
+  "intensity": "Active conflict",
+  "started": "Dec 2024",
+  "duration_note": "Civil war from 2011 until Assad's ouster in December 2024",
+  "summary": "The post-Assad government faces tension around Sweida, where it has reportedly moved about 3,000 troops, along with Israeli incursions in the south and ISIS-linked violence. Jordanian strikes in southern Syria on 26 Oct killed at least seven, and the two countries are now reviewing them jointly.",
+  "casualties": "604 civilians killed Jan–Sep 2026 (SNHR)",
+  "casualties_basis": "Adds the Syrian Network for Human Rights' civilian counts for the first half of 2026 (428) and the third quarter (176); it excludes fighters and is not a total. UN estimates put civil war deaths at no fewer than 580,000 for 2011–24, per CFR.",
+  "casualties_sort": 604,
+  "casualties_source": "Syrian Network for Human Rights",
+  "casualties_url": "https://snhr.org/blog/2026/10/01/quarterly-report-on-victims-of-unlawful-killing-and-violence-related-civilian-deaths-in-syria/",
+  "displaced": "5.54M IDPs (UNHCR, May 2026); about 3.8M refugees",
+  "displaced_basis": "UNHCR's May 2026 IDP estimate as quoted by the UK government, with about 3.8M registered refugees in the region per components on UNHCR's portal; UNHCR says 1.8M refugees and over 2M IDPs had returned by 31 Aug 2026. The sort field uses IDPs only.",
+  "displaced_sort": 5540000,
+  "displaced_source": "UNHCR via UK Home Office note",
+  "displaced_url": "https://www.gov.uk/government/publications/syria-country-policy-and-information-notes/country-and-policy-information-note-humanitarian-situation-syria-june-2026-accessible",
+  "parties": [
+   {
+    "side": "Syrian government",
+    "members": "Government of President Ahmad al-Sharaa and its armed forces"
+   },
+   {
+    "side": "Syrian Democratic Forces",
+    "members": "Kurdish-led force being integrated under a January 2026 deal"
+   },
+   {
+    "side": "Sweida National Guard",
+    "members": "Druze militia, reportedly backed by Israel"
+   },
+   {
+    "side": "Israel",
+    "members": "Israel Defense Forces operating in southern Syria"
+   },
+   {
+    "side": "ISIS",
+    "members": "Islamic State cells"
+   }
+  ],
+  "talks_status": "Talks active",
+  "talks": "Syria and Israel have held several rounds of direct talks toward a security arrangement, with no deal reported as of Oct 2026. A US-mediated deal on 30 Jan 2026 transferred SDF areas to central government control, though CFR says implementation faces challenges.",
+  "talks_source": "Asharq Al-Awsat",
+  "talks_url": "https://english.aawsat.com/arab-world/5330151-netanyahu-says-spoke-syria%E2%80%99s-sharaa-sweida-unrest",
+  "timeline": [
+   {
+    "date": "Dec 2024",
+    "event": "Bashar al-Assad is ousted, ending the civil war era."
+   },
+   {
+    "date": "Mar 2025",
+    "event": "Coastal violence kills about 1,400 people, mostly Alawite civilians, per UN estimates."
+   },
+   {
+    "date": "Jul 2025",
+    "event": "Sweida clashes kill 1,760 people, per a Syrian government committee; Israel strikes government targets."
+   },
+   {
+    "date": "Jan 2026",
+    "event": "After a government offensive, the SDF agrees to a US-mediated deal transferring its region to central control."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Syria reportedly sends about 3,000 troops to the Sweida front as Israel moves in hardware, based on security sources."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Jordan strikes southern Syria after a Karak church attack; Syria says seven civilians were killed and denies any coordination."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "libya",
+  "name": "Libya conflict",
+  "region": "Middle East & North Africa",
+  "countries": [
+   "Libya"
+  ],
+  "intensity": "Low-level",
+  "started": "2020",
+  "duration_note": "Unstable since Gaddafi's 2011 overthrow; split between east and west since 2014",
+  "summary": "A 2020 ceasefire has frozen the main front, but Libya remains split between eastern and western authorities, with armed clashes and drone attacks reported in the west. A UN-backed 4+4 election roadmap signed in August is opposed by the High Council of State.",
+  "casualties": "No reliable figure found",
+  "casualties_basis": "No current UN or ACLED conflict death total was found; individual incidents are reported, such as a mortar blast that killed at least nine security personnel in Zawiya on 18 Oct during training.",
+  "casualties_sort": null,
+  "casualties_source": "",
+  "casualties_url": "",
+  "displaced": "No reliable figure found",
+  "displaced_basis": "No 2026 count of displaced Libyans was found; the latest IOM report located dates to 2022. Separately, UNHCR estimates over 564,358 Sudanese refugees have arrived since Apr 2023, but those people fled Sudan's war, not Libya's.",
+  "displaced_sort": null,
+  "displaced_source": "",
+  "displaced_url": "",
+  "parties": [
+   {
+    "side": "Government of National Unity",
+    "members": "Tripoli-based, led by Abdulhamid Dbeibah, with allied western armed groups"
+   },
+   {
+    "side": "Eastern authorities",
+    "members": "Haftar's eastern command and the House of Representatives"
+   },
+   {
+    "side": "High Council of State",
+    "members": "Tripoli-based advisory body, opposed to the 4+4 outcome"
+   }
+  ],
+  "talks_status": "Stalled",
+  "talks": "The 4+4 agreement of 30 Aug 2026 sets elections within 24 months, but the High Council of State reaffirmed its rejection at its 5 Oct 2026 session and disputes how UN envoy Hanna Tetteh described its position. The Security Council was due to vote on 30 Oct on renewing the UN mission to Oct 2027; the outcome could not be confirmed.",
+  "talks_source": "The Libya Observer",
+  "talks_url": "https://libyaobserver.ly/news/high-council-state-rejects-tettehs-characterization-its-position-44-committee-agreement",
+  "timeline": [
+   {
+    "date": "2020",
+    "event": "A ceasefire freezes fighting without resolving the east-west political split."
+   },
+   {
+    "date": "May 2025",
+    "event": "Armed clashes in Tripoli after the killing of militia leader Abdel Ghani al-Kikli cause civilian deaths."
+   },
+   {
+    "date": "May 2026",
+    "event": "The Zawiya refinery temporarily shuts after nearby armed clashes."
+   },
+   {
+    "date": "Aug 2026",
+    "event": "Rival camps sign the UN-mediated 4+4 agreement on 30 Aug, setting elections within 24 months."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "The High Council of State reaffirms its rejection of the 4+4 outcome."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "A mortar blast during training kills at least nine security personnel in Zawiya, per Libyan TV reported by Reuters."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "turkey-iraq",
+  "name": "Turkey–PKK process and Iraq instability",
+  "region": "Middle East & North Africa",
+  "countries": [
+   "Turkey",
+   "Iraq"
+  ],
+  "intensity": "Low-level",
+  "started": "May 2025",
+  "duration_note": "PKK insurgency began in 1984; the group announced its dissolution in May 2025",
+  "summary": "The PKK says it has withdrawn its remaining fighters from Turkey and vacated four positions in northern Iraq, but a senior figure calls the peace process frozen, while Turkey's parliament speaker says it is on course. Iraq's Kurdistan Region is being hit by Iranian drone strikes on Iranian Kurdish groups linked to the Iran war.",
+  "casualties": "More than 40,000 killed since 1984 (Reuters)",
+  "casualties_basis": "Reuters' figure for the whole PKK insurgency, not recent violence; no reliable 2026 death toll for Turkey–PKK fighting or wider Iraq instability was found.",
+  "casualties_sort": 40000,
+  "casualties_source": "Reuters via Internazionale",
+  "casualties_url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/10/turkish-parliament-passes-landmark-law-to-advance-pkk-peace-process",
+  "displaced": "More than 1 million IDPs in Iraq (IOM, Sep 2026)",
+  "displaced_basis": "IOM's statement on Iraqis still internally displaced, largely a legacy of earlier conflicts rather than the PKK process; no figure for people displaced by Turkey–PKK fighting was found.",
+  "displaced_sort": 1000000,
+  "displaced_source": "IOM via Shafaq News",
+  "displaced_url": "https://shafaq.com/en/society/IOM-Over-one-million-Iraqis-still-internally-displaced",
+  "parties": [
+   {
+    "side": "Turkey",
+    "members": "Turkish government and armed forces"
+   },
+   {
+    "side": "PKK",
+    "members": "Kurdistan Workers' Party, part of the KCK umbrella; jailed founder Abdullah Ocalan"
+   },
+   {
+    "side": "Iraq",
+    "members": "Iraqi federal government and Kurdistan Regional Government"
+   },
+   {
+    "side": "Iran",
+    "members": "Revolutionary Guards striking Iranian Kurdish opposition groups in Iraq"
+   }
+  ],
+  "talks_status": "Stalled",
+  "talks": "On 29 Oct 2026 KCK co-chair Bese Hozat said the process is frozen, blaming government inaction, though too early to call a deadlock. Turkey's August law applies its main provisions only once authorities verify PKK disarmament, and the speaker says a parliamentary monitoring committee will form soon.",
+  "talks_source": "Turkish Minute",
+  "talks_url": "https://www.turkishminute.com/2026/10/29/senior-pkk-figure-says-turkeys-peace-process-is-frozen-blames-govt-inaction/",
+  "timeline": [
+   {
+    "date": "May 2025",
+    "event": "The PKK announces it will dissolve and end its armed struggle."
+   },
+   {
+    "date": "Jul 2025",
+    "event": "PKK militants burn weapons at a ceremony in northern Iraq."
+   },
+   {
+    "date": "Aug 2026",
+    "event": "Turkey's parliament passes a framework law on PKK dissolution with 468 votes."
+   },
+   {
+    "date": "Sep 2026",
+    "event": "US forces withdraw from Iraq on 30 Sep, per the Long War Journal."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "The PKK says it has vacated four positions in the Metina region; Turkish intelligence confirms the withdrawal from the bases."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Iranian media report Revolutionary Guards drone strikes on Komala headquarters in Iraq's Kurdistan Region."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "sahel",
+  "name": "Sahel insurgency (Mali, Burkina Faso, Niger)",
+  "region": "Sub-Saharan Africa",
+  "countries": [
+   "Mali",
+   "Burkina Faso",
+   "Niger"
+  ],
+  "intensity": "High intensity",
+  "started": "Apr 2026",
+  "duration_note": "Current phase is the JNIM–FLA offensive in Mali; CFR dates the Tuareg rebellion behind the Mali crisis to 2012, with violence since spread across the three states.",
+  "summary": "JNIM and the Tuareg-led Azawad Liberation Front are fighting Mali's junta and Russia's Africa Corps after a coordinated offensive in April 2026, while JNIM and Islamic State Sahel Province clash on an unprecedented scale in the tri-border area. Human Rights Watch accuses both government forces and armed groups of grave abuses against civilians.",
+  "casualties": "10,000+ killed in 3 states, Jan–Nov 2025 (ACLED)",
+  "casualties_basis": "ACLED count of all political violence deaths, combatants and civilians, in Burkina Faso, Mali and Niger from 1 Jan to 28 Nov 2025; no 2026 year-to-date ACLED total was found, though the UN recorded 2,640 conflict-related civilian deaths for Jan–Mar 2026 (cited by the Global Centre for the Responsibility to Protect).",
+  "casualties_sort": 10000,
+  "casualties_source": "ACLED",
+  "casualties_url": "https://acleddata.com/report/economic-warfare-escalates-militants-expand-beyond-sahel",
+  "displaced": "Nearly 4M uprooted, incl. 818,000+ refugees (UNHCR)",
+  "displaced_basis": "UNHCR figure from October 2026 for people forcibly displaced across Burkina Faso, Mali and Niger, including more than 818,000 refugees and asylum seekers; a UNHCR regional report separately gave about 4.2 million as of April 2026.",
+  "displaced_sort": 4000000,
+  "displaced_source": "UN News, citing UNHCR (via AllAfrica)",
+  "displaced_url": "https://fr.allafrica.com/stories/202610100168.html",
+  "parties": [
+   {
+    "side": "Alliance of Sahel States governments",
+    "members": "Military governments of Mali, Burkina Faso and Niger, with Russia's Africa Corps and allied militias"
+   },
+   {
+    "side": "JNIM",
+    "members": "Al-Qaeda-linked coalition, cooperating in Mali with the Tuareg-led Azawad Liberation Front (FLA)"
+   },
+   {
+    "side": "Islamic State Sahel Province",
+    "members": "Islamic State affiliate, fighting both the governments and JNIM"
+   }
+  ],
+  "talks_status": "No talks",
+  "talks": "As of September 2026 Al Jazeera reported no active peace talks in Mali, with an analyst warning that hardline positions on both sides make a settlement harder to restore. CFR's tracker, read in October 2026, also lists no 2026 negotiations.",
+  "talks_source": "Al Jazeera",
+  "talks_url": "https://www.aljazeera.com/news/2026/9/22/mali-marks-independence-amid-a-worsening-security-crisis",
+  "timeline": [
+   {
+    "date": "2012",
+    "event": "Tuareg rebellion resurfaces in Mali, followed by a coup that year (CFR)."
+   },
+   {
+    "date": "Jul 2023",
+    "event": "Niger's coup completes a run of military takeovers, after Mali (2020, 2021) and Burkina Faso (2022) (CFR)."
+   },
+   {
+    "date": "Sep 2025",
+    "event": "JNIM begins targeting fuel tankers on routes to Bamako, causing shortages."
+   },
+   {
+    "date": "Apr 2026",
+    "event": "JNIM and the FLA launch coordinated attacks across Mali; Defence Minister Sadio Camara is killed."
+   },
+   {
+    "date": "Aug 2026",
+    "event": "Niger's government says it contained a mutiny by soldiers in Niamey on 29 August."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "JNIM and Islamic State clashes intensify; IS claims 400+ JNIM fighters killed in Oudalan, a toll not independently confirmed."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "nigeria",
+  "name": "Nigeria: Boko Haram/ISWAP, banditry and Middle Belt violence",
+  "region": "Sub-Saharan Africa",
+  "countries": [
+   "Nigeria"
+  ],
+  "intensity": "High intensity",
+  "started": "2009",
+  "duration_note": "Boko Haram insurgency in the northeast runs alongside banditry in the northwest and farmer-herder and communal violence in the Middle Belt.",
+  "summary": "Attacks continue on several fronts: gunmen killed at least 62 people in Taraba state in October 2026, Plateau remains under a curfew, and the military reports heavy air strikes on ISWAP. Most US forces deployed for a joint operation in May have withdrawn, with intelligence support continuing.",
+  "casualties": "17,109 deaths, Jan 2024–Aug 2025 (ACLED, via EUAA)",
+  "casualties_basis": "ACLED fatalities from security incidents nationwide, of which 5,840 were coded violence against civilians; it covers all actors, not only these three theatres, and Nigeria Watch separately counts 12,954 violence-related deaths in 2025 and 5,272 in Jan–May 2026 (reported by BusinessDay).",
+  "casualties_sort": 17109,
+  "casualties_source": "EUAA, citing ACLED",
+  "casualties_url": "https://www.euaa.europa.eu/nigeria-security-situation/127-main-security-trends-and-impact-civilian-population",
+  "displaced": "3.68M internally displaced (IOM/NEMA, via UNHCR)",
+  "displaced_basis": "IOM and NEMA count of 3,679,757 internally displaced people on UNHCR's portal, updated 1 Oct 2026, from all causes tracked; it excludes Nigerian refugees abroad, for which no current total was found, and the 141,688 refugees shown are people hosted in Nigeria.",
+  "displaced_sort": 3679757,
+  "displaced_source": "UNHCR Operational Data Portal",
+  "displaced_url": "https://data.unhcr.org/en/country/nga/699",
+  "parties": [
+   {
+    "side": "Nigerian government",
+    "members": "Nigerian armed forces and police, with Civilian Joint Task Force and vigilante groups; US intelligence support"
+   },
+   {
+    "side": "Jihadist groups",
+    "members": "Islamic State West Africa Province (ISWAP) and Boko Haram"
+   },
+   {
+    "side": "Bandits and armed groups",
+    "members": "Armed gangs in the northwest and north-central states, and armed groups in farmer-herder and communal violence"
+   }
+  ],
+  "talks_status": "No talks",
+  "talks": "No national peace process was found as of October 2026. In January 2026 Katsina State defended releasing 70 suspected bandits as a condition of local peace deals, and the current status of those deals is unconfirmed.",
+  "talks_source": "AllAfrica coverage of Katsina State",
+  "talks_url": "https://allafrica.com/stories/202601120643.html",
+  "timeline": [
+   {
+    "date": "2009",
+    "event": "Boko Haram insurgency begins in the northeast."
+   },
+   {
+    "date": "Dec 2025",
+    "event": "US carries out a Christmas Day strike in Nigeria, ordered by President Trump."
+   },
+   {
+    "date": "May 2026",
+    "event": "US and Nigerian forces raid the Lake Chad Basin and kill ISIS deputy Abu-Bilal al-Minuki."
+   },
+   {
+    "date": "Jul 2026",
+    "event": "AFRICOM says most US forces have withdrawn, with intelligence support continuing."
+   },
+   {
+    "date": "Sep 2026",
+    "event": "Plateau state imposes a dusk-to-dawn curfew on 21 September; Daily Trust reports attacks continuing."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Gunmen attack Binnari, Taraba, killing at least 62 per the national emergency agency; the army claims 103 ISWAP fighters killed in strikes."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "myanmar",
+  "name": "Myanmar civil war",
+  "region": "Asia",
+  "countries": [
+   "Myanmar"
+  ],
+  "intensity": "High intensity",
+  "started": "Feb 2021",
+  "duration_note": "Began with the military coup that removed Aung San Suu Kyi's elected government.",
+  "summary": "The military has regained ground in parts of the country but heavy air strikes continue, including one in Kyauktaw, Rakhine, that reportedly killed 50 people in September 2026. The Arakan Army controls most of Rakhine, and ASEAN's envoy visited Naypyitaw in late October.",
+  "casualties": "~100,000 killed (est.); 8,384+ civilians (UN)",
+  "casualties_basis": "The roughly 100,000 total is an estimate reported by Reuters and credited elsewhere to conflict monitors; the UN Special Rapporteur counts at least 8,384 civilians killed by the military up to 15 Sep 2026, and AAPP counts 8,627 activists and civilians killed by the junta and allied groups as of 30 Oct 2026.",
+  "casualties_sort": 100000,
+  "casualties_source": "Reuters (via WHBL); UN News",
+  "casualties_url": "https://whbl.com/2026/10/29/asean-envoy-meets-myanmar-minister-discusses-civil-war-and-aid-access/",
+  "displaced": "~5.3M: 3.7M IDPs, 1.6M refugees (UNHCR, Mar 2026)",
+  "displaced_basis": "UNHCR count of forcibly displaced people in the Myanmar situation at end-March 2026, including refugees and asylum seekers abroad; a UNHCR map of 22 June 2026 puts internally displaced people at about 3.78 million, and the total includes people displaced before the coup.",
+  "displaced_sort": 5300000,
+  "displaced_source": "UNHCR Myanmar Situation Regional Update #7",
+  "displaced_url": "https://www.ecoi.net/en/file/local/2140230/UNHCR%20Myanmar%20Situation%20Regional%20Update%20%237%20%28January%20-%20March%202026%29.pdf",
+  "parties": [
+   {
+    "side": "Myanmar government and military",
+    "members": "Army-backed government under President Min Aung Hlaing, the armed forces (Tatmadaw) and paramilitary forces"
+   },
+   {
+    "side": "Steering Council for the Emergence of a Federal Democratic Union (SCEF)",
+    "members": "Umbrella body of ethnic armed groups and remnants of the last elected government"
+   },
+   {
+    "side": "Arakan Army",
+    "members": "Ethnic armed group fighting the military in Rakhine State"
+   }
+  ],
+  "talks_status": "Stalled",
+  "talks": "In August 2026 Reuters reported a rare opening for talks, but Min Aung Hlaing has not accepted SCEF as a negotiating partner and analysts expect only preliminary 'talks about talks'. On 29 October 2026 ASEAN envoy Teresa Lazaro met Myanmar's foreign minister in Naypyitaw on the war and aid access.",
+  "talks_source": "Reuters (via WHBL)",
+  "talks_url": "https://whbl.com/2026/10/29/asean-envoy-meets-myanmar-minister-discusses-civil-war-and-aid-access/",
+  "timeline": [
+   {
+    "date": "Feb 2021",
+    "event": "Military coup removes the government led by Aung San Suu Kyi."
+   },
+   {
+    "date": "Apr 2026",
+    "event": "Min Aung Hlaing becomes president after an army-backed election, and a declared '100-day peace plan' begins."
+   },
+   {
+    "date": "Jul 2026",
+    "event": "100-day period ends; the UN later counts about 753 civilians killed in it, 89% attributed to the military and paramilitaries."
+   },
+   {
+    "date": "Aug 2026",
+    "event": "Reuters reports a rare opening for talks as Thailand hosts Min Aung Hlaing; Myanmar says it no longer needs an ASEAN envoy."
+   },
+   {
+    "date": "Sep 2026",
+    "event": "Air strike on a market in Kyauktaw, Rakhine, kills 50 according to aid workers and the Arakan Army; the military has not commented."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "ASEAN envoy Lazaro visits Naypyitaw; a UN report ties the illicit economy to escalating violence."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "afghanistan-pakistan",
+  "name": "Afghanistan–Pakistan conflict",
+  "region": "Asia",
+  "countries": [
+   "Afghanistan",
+   "Pakistan"
+  ],
+  "intensity": "High intensity",
+  "started": "Oct 2025",
+  "duration_note": "Pakistan's defence minister declared 'open war' in late February 2026; Islamabad accuses Kabul of sheltering the Pakistani Taliban (TTP), which Kabul denies.",
+  "summary": "Border clashes and Pakistani strikes continued through late October 2026, including fighting at Torkham and in Paktika, with each side blaming the other. Crossings have been mostly closed for over a year, and Pakistan says further talks depend on Kabul acting against militants.",
+  "casualties": "499 Afghan civilians killed, Oct 2025–Jun 2026 (UNAMA)",
+  "casualties_basis": "UNAMA count of civilians killed in Afghanistan only, excluding combatants and Pakistani victims; reports of it differ on wounded (717 or 1,216), Pakistan rejected the report as baseless, Pakistani authorities attribute about 3,000 deaths this year to militant attacks mainly in the northwest and Balochistan, and the Taliban claim 1,119 civilian casualties from Pakistani strikes since 2022, which Pakistan calls fabricated.",
+  "casualties_sort": 499,
+  "casualties_source": "Arab News/AP, citing UNAMA",
+  "casualties_url": "https://www.arabnews.pk/pakistan/un-says-nearly-500-afghan-civilians-killed-in-pakistan-afghanistan-clashes-since-october-2652555",
+  "displaced": "115,000 in Afghanistan, 3,500 in Pakistan (UNHCR, Mar)",
+  "displaced_basis": "UNHCR estimate of internally displaced people from cross-border clashes as of March 2026, the latest consolidated figure found; OCHA later reported about 100,900 across six Afghan provinces, and no newer count covers the renewed fighting since September, nor does this count Afghans returning or deported from Pakistan.",
+  "displaced_sort": 115000,
+  "displaced_source": "UNHCR Emergency Flash Update #7",
+  "displaced_url": "https://data.unhcr.org/en/documents/download/121703",
+  "parties": [
+   {
+    "side": "Pakistan",
+    "members": "Pakistani armed forces and government"
+   },
+   {
+    "side": "Afghan Taliban government",
+    "members": "Taliban authorities and forces in Kabul"
+   },
+   {
+    "side": "Pakistani Taliban and allied militants",
+    "members": "TTP and Ittehad ul Mujahideen Pakistan, which Pakistan says operate from Afghan soil; Kabul denies this"
+   }
+  ],
+  "talks_status": "Stalled",
+  "talks": "China-mediated talks in Urumqi produced no formal agreement, and CFR lists no active negotiations as of October 2026. On 24 October 2026 Pakistan urged 'verifiable action' against militants while Kabul rejected responsibility for insecurity in Pakistan.",
+  "talks_source": "CFR Global Conflict Tracker",
+  "talks_url": "https://www.cfr.org/global-conflict-tracker/conflict/war-afghanistan",
+  "timeline": [
+   {
+    "date": "Oct 2025",
+    "event": "Border clashes after Pakistani strikes; Qatar and Turkey broker a ceasefire on 19 October, and follow-up talks collapse on 28 October."
+   },
+   {
+    "date": "Dec 2025",
+    "event": "Talks hosted in Saudi Arabia end without a breakthrough."
+   },
+   {
+    "date": "Feb 2026",
+    "event": "Pakistan strikes Afghan targets and its defence minister declares 'open war'."
+   },
+   {
+    "date": "Mar 2026",
+    "event": "Strike on a Kabul drug rehabilitation hospital kills at least 269 per UNAMA; Pakistan says it hit military targets, and a brief Eid truce follows."
+   },
+   {
+    "date": "Sep 2026",
+    "event": "Fighting resumes after a suicide attack kills 31 in northwestern Pakistan on 18 September."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Pakistani strikes in Helmand and Kunar kill at least 10 civilians per UNAMA, while Pakistan claims 22 militants; clashes follow at Torkham and in Paktika."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "india-pakistan",
+  "name": "India–Pakistan and Kashmir",
+  "region": "Asia",
+  "countries": [
+   "India",
+   "Pakistan"
+  ],
+  "intensity": "Low-level",
+  "started": "Apr 2025",
+  "duration_note": "Current crisis began with the Pahalgam attack; the wider Kashmir dispute is much older, and the two fought a four-day conflict in May 2025.",
+  "summary": "The US-brokered ceasefire of May 2025 has held, but a warship collision in September 2026 and a deadly border shooting in October brought mutual diplomatic summonses. India keeps the Indus Waters Treaty in abeyance and rejects arbitration rulings against it.",
+  "casualties": "May 2025: Pakistan says 51 dead; India confirms 6 troops",
+  "casualties_basis": "Pakistan's ISPR reported 40 civilians and 11 military dead in the May 2025 conflict, while India confirmed six military dead and J&K data show 25 civilians, 5 security personnel and 13 militants killed that month; the counts are not reconciled, and police data record 40 further deaths in J&K from June 2025 to April 2026, none of them civilians linked to terrorism.",
+  "casualties_sort": 51,
+  "casualties_source": "Swarajya, citing ISPR; The Federal; ETV Bharat",
+  "casualties_url": "https://swarajyamag.com/news-brief/pakistan-confirms-death-of-six-army-and-five-air-force-personnel-in-indias-operation-sindoor-claims-civilian-casualties-too",
+  "displaced": "No reliable figure found",
+  "displaced_basis": "No current count of people displaced by the India–Pakistan confrontation was found; ETV Bharat reported only that 'hundreds of families' left homes in Uri during shelling in May 2025.",
+  "displaced_sort": null,
+  "displaced_source": "ETV Bharat",
+  "displaced_url": "https://www.etvbharat.com/en/bharat/operation-sindoor-anniversary-jammu-kashmir-records-fewer-civilian-killings-but-border-fears-persist-enn26050703447",
+  "parties": [
+   {
+    "side": "India",
+    "members": "Indian government, armed forces and Border Security Force"
+   },
+   {
+    "side": "Pakistan",
+    "members": "Pakistani government and armed forces"
+   },
+   {
+    "side": "Militant groups in Kashmir",
+    "members": "Groups India says Pakistan backs; Pakistan denies involvement in the Pahalgam attack"
+   }
+  ],
+  "talks_status": "Ceasefire holding",
+  "talks": "CFR reports no formal bilateral talks in 2026, with the May 2025 ceasefire holding and contact limited to envoy summonses and public protests as of October 2026. On 31 August 2026 a Hague tribunal ruled the Indus Waters Treaty remains in force, and India rejected the ruling.",
+  "talks_source": "CFR Global Conflict Tracker",
+  "talks_url": "https://www.cfr.org/global-conflict-tracker/conflict/conflict-between-india-and-pakistan",
+  "timeline": [
+   {
+    "date": "Apr 2025",
+    "event": "Attack at Pahalgam kills 26; India blames Pakistan, which denies involvement, and suspends the Indus Waters Treaty."
+   },
+   {
+    "date": "May 2025",
+    "event": "India strikes sites in Pakistan and Pakistan-administered Kashmir; a four-day conflict ends with a US-brokered ceasefire."
+   },
+   {
+    "date": "Aug 2026",
+    "event": "Court of Arbitration rules the Indus Waters Treaty remains in force; India calls the tribunal illegally constituted."
+   },
+   {
+    "date": "Sep 2026",
+    "event": "Indian and Pakistani warships collide in the Arabian Sea on 15 September, and each blames the other."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Two people killed by India's BSF on 2 October; Pakistan calls them unarmed civilians, India says they posed a security threat, and both summon envoys."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ },
+ {
+  "id": "thailand-cambodia",
+  "name": "Thailand–Cambodia border conflict",
+  "region": "Asia",
+  "countries": [
+   "Thailand",
+   "Cambodia"
+  ],
+  "intensity": "Low-level",
+  "started": "Jul 2025",
+  "duration_note": "Boundary dispute rests on the 1904 and 1907 Franco-Siamese treaties and a 2000 memorandum; fighting came in two rounds, in July and December 2025.",
+  "summary": "The 27 December 2025 ceasefire is in place but tense, with border crossings reported closed as of mid-2026 and boundary survey work not under way. Cambodia accuses Thailand of redrawing the border with barbed wire and containers, while Thailand calls these security measures on its own territory.",
+  "casualties": "At least 86 killed in Dec 2025 fighting (NBC News)",
+  "casualties_basis": "Toll reported on 25 Dec 2025 for that round only, comprising at least 21 Cambodian civilians and at least 65 in Thailand, before the ceasefire and excluding July 2025; Britannica gives more than 100 deaths across 2025, and the sides dispute civilian tolls (Thailand's envoy cited 19 killed by Cambodian attacks, Cambodia at least 30 of its own).",
+  "casualties_sort": 86,
+  "casualties_source": "NBC News",
+  "casualties_url": "https://www.nbcnews.com/world/asia/thai-cambodia-militaries-hold-talks-resuming-ceasefire-rcna250912",
+  "displaced": "20,000+ still displaced, per Cambodia; Thailand disputes",
+  "displaced_basis": "Cambodia's figure for people unable to return, down from about 650,000 at the December 2025 peak, while nearly 500,000 evacuated in Thailand and mostly returned; the Thai army identifies about 4,600 people in three areas it considers Thai territory, a narrower scope not directly comparable.",
+  "displaced_sort": 20000,
+  "displaced_source": "The Nation (Thailand)",
+  "displaced_url": "https://www.nationthailand.com/news/general/40072317",
+  "parties": [
+   {
+    "side": "Thailand",
+    "members": "Thai government and Royal Thai Army"
+   },
+   {
+    "side": "Cambodia",
+    "members": "Cambodian government and armed forces"
+   }
+  ],
+  "talks_status": "Ceasefire holding",
+  "talks": "As of October 2026 the December 2025 ceasefire stands and both sides cite diplomacy, but Cambodia presses for joint survey work through the Joint Boundary Commission, which it says has not begun. No Joint Boundary Commission or General Border Committee meeting in October 2026 was found.",
+  "talks_source": "The Nation (Thailand)",
+  "talks_url": "https://www.nationthailand.com/news/general/40072816",
+  "timeline": [
+   {
+    "date": "Jul 2025",
+    "event": "Five days of border fighting between Thai and Cambodian forces."
+   },
+   {
+    "date": "Oct 2025",
+    "event": "Kuala Lumpur joint declaration signed on 26 October."
+   },
+   {
+    "date": "Dec 2025",
+    "event": "Almost three weeks of renewed fighting; hundreds of thousands flee, and a ceasefire takes effect on 27 December."
+   },
+   {
+    "date": "Jul 2026",
+    "event": "A UN expert says more than 20,000 Cambodians remain displaced."
+   },
+   {
+    "date": "Aug 2026",
+    "event": "ASEAN observers inspect barricades at Chouk Chey, where Cambodia says nearly 4,000 civilians are blocked from returning."
+   },
+   {
+    "date": "Oct 2026",
+    "event": "Thai army and Cambodia trade accusations over displacement figures and barbed-wire barriers, including at a UN refugee agency meeting."
+   }
+  ],
+  "as_of": "2026-10-30",
+  "pulled_at": "2026-10-30T17:51:47.185Z"
+ }
+]

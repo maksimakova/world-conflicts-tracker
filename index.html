@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>World Conflicts Tracker</title>
+<meta name="description" content="A daily-updated tracker of active armed conflicts worldwide, with casualties, displacement, parties, peace talks and headlines.">
+<style>
+  :root {
+    --color-fg: #1d2126; --color-fg-muted: #5c6470; --color-bg: #f4f5f7; --color-panel: #ffffff; --color-border-line: #dcdfe4;
+    --color-ok: #1f7a43; --color-warn: #9a5b00; --color-bad: #b3261e;
+    --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 16px; --cds-gap-lg: 24px;
+    --cds-pad-xs: 4px; --cds-pad-sm: 8px; --cds-pad-md: 12px; --cds-pad-lg: 16px;
+    --cds-radius: 8px; --cds-font-size-caption: 0.8125rem; --cds-font-size-heading: 1.0625rem; --cds-font-size-title: 1.75rem;
+    --cds-font-weight-medium: 600; --cds-dur-slow: 300ms;
+    --font-anthropic-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --font-anthropic-serif: Georgia, "Times New Roman", serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-fg: #e8eaed; --color-fg-muted: #a3aab5; --color-bg: #15181c; --color-panel: #1f2329; --color-border-line: #363c45;
+      --color-ok: #6fcf97; --color-warn: #e8b65a; --color-bad: #f28b82; color-scheme: dark;
+    }
+  }
+  body { background: var(--color-bg); color: var(--color-fg); font-family: var(--font-anthropic-sans); font-size: 0.9375rem; line-height: 1.4; margin: 0;
+    padding-block: 24px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  #dash-root { max-width: 1500px; margin-inline: auto; }
+</style>
+<script>
+(() => {
+  const state = {
+    conflicts: {status: 'loading', data: [], refreshing: false},
+    headlines: {status: 'loading', data: [], refreshing: false},
+  };
+  const calcs = {}, listeners = [], draws = {};
+  const redraw = () => {
+    listeners.forEach((fn) => fn());
+    Object.keys(draws).forEach(runDraw);
+  };
+  const runDraw = (name) => document.querySelectorAll('[data-draw="' + name + '"]').forEach((el) => draws[name](el));
+  const load = async (id, stamp) => {
+    const res = await fetch(id + '.json?t=' + stamp, {cache: 'no-store'});
+    if (!res.ok) throw new Error(id + ': ' + res.status);
+    return res.json();
+  };
+  const fetchAll = async () => {
+    const stamp = Date.now();
+    await Promise.all(Object.keys(state).map(async (id) => {
+      try {
+        state[id] = {status: 'ok', data: await load(id, stamp), refreshing: false};
+      } catch {
+        state[id] = state[id].status === 'ok' ? {...state[id], refreshing: false} : {status: 'error', data: [], refreshing: false};
+      }
+    }));
+    redraw();
+  };
+  window.dash = {
+    data(id) {
+      if (!calcs[id]) return state[id] ?? {status: 'missing', data: []};
+      const inputs = calcs[id].inputs.map((i) => state[i]);
+      if (inputs.some((i) => i.status !== 'ok')) return {status: 'loading', data: []};
+      return {status: 'ok', data: calcs[id].fn(...inputs.map((i) => i.data))};
+    },
+    calc(id, spec) { calcs[id] = spec; },
+    onData(fn) { listeners.push(fn); fn(); },
+    draw(name, fn) { if (fn) draws[name] = fn; else runDraw(name); },
+    refresh(id) {
+      if (state[id].refreshing) return;
+      state[id] = {...state[id], refreshing: true};
+      if (Object.values(state).every((s) => s.refreshing)) { redraw(); fetchAll(); }
+    },
+    setLink(name) { history.replaceState(null, '', name === 'home' ? location.pathname : '#' + name); },
+  };
+  window.d3 = {
+    max: (rows, fn) => rows.map(fn).filter(Boolean).sort().pop(),
+    utcFormat: () => (date) => date.toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC'}),
+  };
+  document.addEventListener('DOMContentLoaded', () => { redraw(); fetchAll(); });
+})();
+</script>
+</head>
+<body>
+<div id="dash-root">
+<style>
+  /* Layout: a status header, then a wall of equal conflict rectangles. Opening one swaps the wall for its news desk. */
+  .wc { display: flex; flex-direction: column; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); }
+  .wc[hidden], .wc [hidden] { display: none !important; }
+  .wc-card .wc-small { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+  .wc-head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: var(--cds-gap-md); }
+  .wc-head > div { min-width: 0; flex: 1 1 20rem; }
+  .wc h1, .wc h2 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+  .wc h3 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+  .wc p { margin: 0; }
+  .wc-sub { color: var(--color-fg-muted); margin-top: var(--cds-gap-xs) !important; }
+  .wc-sub b { font-weight: var(--cds-font-weight-medium); color: var(--color-fg); }
+  .wc-late { color: var(--color-warn); margin-top: var(--cds-gap-xs) !important; }
+  .wc-actions { display: flex; flex-direction: column; align-items: flex-end; gap: var(--cds-gap-xs); }
+  .wc-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .wc-actions .wc-note { text-align: right; max-width: 22rem; }
+  .wc button.wc-btn { font: inherit; color: var(--color-fg); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-xs) var(--cds-pad-md); cursor: pointer; }
+  .wc button.wc-btn:hover { border-color: var(--color-fg-muted); }
+  .wc button.wc-btn:focus-visible, .wc-card:focus-visible, .wc a:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+
+  .wc-stats { display: flex; flex-wrap: wrap; gap: var(--cds-gap-lg); }
+  .wc-stat { display: flex; flex-direction: column; }
+  .wc-stat b { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; }
+
+  .wc-filters { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); align-items: center; }
+  .wc-filters input, .wc-filters select { font: inherit; color: var(--color-fg); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-xs) var(--cds-pad-sm); max-width: 100%; }
+  .wc-filters input { flex: 1 1 14rem; min-width: 0; }
+
+  .wc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr)); gap: var(--cds-gap-md); min-height: 20rem; }
+  .wc-card { display: flex; flex-direction: column; gap: var(--cds-gap-sm); min-width: 0; background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); cursor: pointer; transition: border-color var(--cds-dur-slow); }
+  .wc-card:hover { border-color: var(--color-fg-muted); }
+  .wc-card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: var(--cds-gap-sm); }
+  .wc-card-name { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); min-width: 0; }
+  .wc-countries { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .wc-facts { display: grid; grid-template-columns: minmax(5.5rem, auto) minmax(0, 1fr); gap: var(--cds-gap-xs) var(--cds-gap-sm); margin: 0; flex: 1 1 auto; align-content: start; }
+  .wc-facts dt { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); padding-top: 0.1em; }
+  .wc-facts dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+  .wc-big { font-variant-numeric: tabular-nums; }
+  .wc-small { display: block; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin-top: 0.15em; }
+  .wc-more { display: flex; justify-content: space-between; gap: var(--cds-gap-sm); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); border-top: 1px solid var(--color-border-line); padding-top: var(--cds-gap-sm); }
+
+  .wc-pill { display: inline-block; white-space: nowrap; font-size: var(--cds-font-size-caption); border-radius: 999px; padding: 0.05em 0.6em; background: color-mix(in srgb, currentColor 12%, transparent); }
+  .wc-tone-bad { color: var(--color-bad); }
+  .wc-tone-warn { color: var(--color-warn); }
+  .wc-tone-ok { color: var(--color-ok); }
+  .wc-tone-muted { color: var(--color-fg-muted); }
+
+  .wc-empty { grid-column: 1 / -1; color: var(--color-fg-muted); padding: var(--cds-pad-lg); text-align: center; }
+  .wc-failed { grid-column: 1 / -1; display: flex; align-items: center; justify-content: center; gap: var(--cds-gap-xs); min-height: 8rem; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .wc-failed::before { content: ""; width: 0.375rem; height: 0.375rem; border-radius: 50%; background: var(--color-bad); }
+
+  .wc-detail { display: flex; flex-direction: column; gap: var(--cds-gap-lg); }
+  .wc-detail-head { display: flex; flex-direction: column; gap: var(--cds-gap-xs); align-items: flex-start; }
+  .wc-columns { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: var(--cds-gap-md); align-items: start; }
+  .wc-panel { display: flex; flex-direction: column; gap: var(--cds-gap-md); min-width: 0; background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); }
+  .wc-news { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--cds-gap-md); }
+  .wc-news li { display: flex; flex-direction: column; gap: 0.2em; min-width: 0; }
+  .wc-news a { color: var(--color-fg); font-weight: var(--cds-font-weight-medium); overflow-wrap: anywhere; }
+  .wc-source a { color: inherit; }
+  .wc-timeline { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: minmax(4.5rem, auto) minmax(0, 1fr); gap: var(--cds-gap-xs) var(--cds-gap-sm); }
+  .wc-timeline li { display: contents; }
+  .wc-timeline span:first-child { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; padding-top: 0.1em; }
+  .wc-party { display: block; }
+  .wc-party + .wc-party { margin-top: var(--cds-gap-xs); }
+  .wc-party b { font-weight: var(--cds-font-weight-medium); }
+
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  [data-dash-source-state=empty] { color: transparent; }
+</style>
+
+<div class="wc">
+  <header class="wc-head" id="home">
+    <div>
+      <h1>World Conflicts Tracker</h1>
+      <p class="wc-sub"><b data-draw="count" data-source="overview" data-field="total">—</b> active conflicts tracked. <span data-draw="updated" data-source="conflicts">—</span></p>
+      <p class="wc-late" data-late hidden>The daily update is late, so this data may be out of date.</p>
+    </div>
+    <div class="wc-actions">
+      <button class="wc-btn" type="button" data-refresh>Refresh</button>
+      <p class="wc-note">Refresh loads the newest data pull. New pulls run daily.</p>
+    </div>
+  </header>
+
+  <section class="wc-detail" id="conflict" data-detail hidden>
+    <div class="wc-detail-head">
+      <button class="wc-btn" type="button" data-back>Back to all conflicts</button>
+      <h2 data-draw="d-name" data-source="conflicts">—</h2>
+      <p data-draw="d-countries" class="wc-countries">—</p>
+      <p data-draw="d-summary">—</p>
+    </div>
+    <div class="wc-columns">
+      <div class="wc-panel" id="headlines">
+        <h3>Headlines and news</h3>
+        <ul class="wc-news" data-draw="d-news" data-source="headlines"></ul>
+      </div>
+      <div class="wc-panel" id="facts">
+        <h3>The numbers and who is involved</h3>
+        <dl class="wc-facts">
+          <dt>Status</dt><dd data-draw="d-status">—</dd>
+          <dt>Started</dt><dd data-draw="d-started">—</dd>
+          <dt>Casualties</dt><dd data-draw="d-casualties">—</dd>
+          <dt>Displaced</dt><dd data-draw="d-displaced">—</dd>
+          <dt>Parties</dt><dd data-draw="d-parties">—</dd>
+          <dt>Peace talks</dt><dd data-draw="d-talks">—</dd>
+        </dl>
+        <h3>Timeline</h3>
+        <ol class="wc-timeline" data-draw="d-timeline"></ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="wc" id="all" data-home>
+    <div class="wc-stats">
+      <div class="wc-stat"><b data-draw="major" data-source="overview" data-field="major">—</b><span class="wc-note">High intensity</span></div>
+      <div class="wc-stat"><b data-draw="active" data-source="overview" data-field="active">—</b><span class="wc-note">Active conflicts</span></div>
+      <div class="wc-stat"><b data-draw="low" data-source="overview" data-field="low">—</b><span class="wc-note">Low-level</span></div>
+      <div class="wc-stat"><b data-draw="talks" data-source="overview" data-field="talks">—</b><span class="wc-note">With talks or a ceasefire</span></div>
+    </div>
+    <div class="wc-filters">
+      <input id="wc-search" type="search" data-search placeholder="Search by country, group or name" aria-label="Search conflicts">
+      <select id="wc-region" data-draw="region" data-source="conflicts" aria-label="Region"></select>
+      <select id="wc-talks" data-talks aria-label="Peace talks">
+        <option value="">Any peace talks status</option>
+        <option>Talks active</option>
+        <option>Ceasefire holding</option>
+        <option>Ceasefire shaky</option>
+        <option>Stalled</option>
+        <option>No talks</option>
+      </select>
+      <select id="wc-sort" data-sort aria-label="Sort by">
+        <option value="severity">Sort: most severe</option>
+        <option value="casualties">Sort: most casualties</option>
+        <option value="displaced">Sort: most displaced</option>
+        <option value="news">Sort: newest headlines</option>
+        <option value="name">Sort: A to Z</option>
+      </select>
+    </div>
+    <div class="wc-grid" data-draw="cards" data-source="conflicts headlines">—</div>
+    <p class="wc-note">High intensity means roughly 1,000 or more conflict deaths in the past year, including gang and cartel violence. Figures come from different sources and count different things, so compare them with care. Open a conflict to see what each number counts and where it comes from. Standoffs without active fighting, such as Taiwan and the Korean peninsula, are left out.</p>
+    <p class="wc-note">Compiled by Claude, an AI, from UN agencies, ACLED, CFR and news outlets. It can make mistakes, so check the linked source before relying on a figure.</p>
+  </section>
+</div>
+
+<script>
+  dash.calc('overview', {
+    inputs: ['conflicts'],
+    title: 'Conflict counts',
+    description: 'Counts the tracked conflicts by intensity, and those with talks or a ceasefire.',
+    fn: (conflicts) => [{
+      total: conflicts.length,
+      major: conflicts.filter((c) => c.intensity === 'High intensity').length,
+      active: conflicts.filter((c) => c.intensity === 'Active conflict').length,
+      low: conflicts.filter((c) => c.intensity === 'Low-level').length,
+      talks: conflicts.filter((c) => ['Talks active', 'Ceasefire holding', 'Ceasefire shaky'].includes(c.talks_status)).length,
+    }],
+  });
+
+  const RANK = {'High intensity': 0, 'Active conflict': 1, 'Low-level': 2};
+  const INTENSITY_TONE = {'High intensity': 'bad', 'Active conflict': 'warn', 'Low-level': 'muted'};
+  const TALKS_TONE = {'Talks active': 'ok', 'Ceasefire holding': 'ok', 'Ceasefire shaky': 'warn', 'Stalled': 'muted', 'No talks': 'muted'};
+
+  let selected = null, region = '', talks = '', sort = 'severity', search = '', opened = false;
+
+  const list = (value) => {
+    if (Array.isArray(value)) return value;
+    try { const parsed = JSON.parse(value); return Array.isArray(parsed) ? parsed : []; } catch { return []; }
+  };
+  const num = (value) => (value === null || value === undefined || value === '' || Number.isNaN(Number(value)) ? -1 : Number(value));
+  const rows = (id) => { const g = dash.data(id); return g.status === 'ok' && Array.isArray(g.data) ? g.data : []; };
+  const current = () => rows('conflicts').find((c) => c.id === selected);
+  const newsFor = (id) => rows('headlines').filter((h) => h.conflict_id === id).sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  const safeUrl = (url) => { try { const u = new URL(url); return u.protocol === 'https:' ? u.href : null; } catch { return null; } };
+  const shortDate = (iso) => {
+    const d = new Date(iso);
+    return Number.isNaN(d.getTime()) ? String(iso) : d3.utcFormat('%b %-d, %Y')(d);
+  };
+  const make = (tag, className, text) => {
+    const el = document.createElement(tag);
+    if (className) el.className = className;
+    if (text !== undefined) el.textContent = text;
+    return el;
+  };
+  const pill = (text, tone) => make('span', `wc-pill wc-tone-${tone || 'muted'}`, text);
+  const mark = (el, field, id) => {
+    el.setAttribute('data-source', 'conflicts');
+    el.setAttribute('data-field', field);
+    el.setAttribute('data-where', `id=${encodeURIComponent(id)}`);
+    return el;
+  };
+  const sourceLine = (name, url) => {
+    const line = make('span', 'wc-small wc-source');
+    const href = safeUrl(url);
+    if (href && name) {
+      line.append('Source: ');
+      const a = make('a', '', name);
+      a.href = href;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      line.append(a);
+    } else if (name) {
+      line.textContent = `Source: ${name}`;
+    }
+    return line;
+  };
+
+  const open = (id) => {
+    selected = id;
+    showView();
+    dash.draw('d-name'); dash.draw('d-countries'); dash.draw('d-summary'); dash.draw('d-news');
+    dash.draw('d-status'); dash.draw('d-started'); dash.draw('d-casualties'); dash.draw('d-displaced');
+    dash.draw('d-parties'); dash.draw('d-talks'); dash.draw('d-timeline');
+    dash.setLink(id);
+    window.scrollTo?.(0, 0);
+    document.querySelector('[data-detail]')?.scrollIntoView();
+  };
+  const showView = () => {
+    document.querySelectorAll('[data-detail]').forEach((el) => { el.hidden = !selected; });
+    document.querySelectorAll('[data-home]').forEach((el) => { el.hidden = !!selected; });
+  };
+
+  document.querySelectorAll('[data-back]').forEach((button) => button.addEventListener('click', () => {
+    selected = null;
+    showView();
+    dash.draw('cards');
+    dash.setLink('home');
+  }));
+  document.querySelectorAll('[data-refresh]').forEach((button) => button.addEventListener('click', () => {
+    dash.refresh('conflicts');
+    dash.refresh('headlines');
+  }));
+  document.querySelectorAll('[data-search]').forEach((input) => input.addEventListener('input', () => {
+    search = input.value.trim().toLowerCase();
+    dash.draw('cards');
+  }));
+  document.querySelectorAll('[data-talks]').forEach((sel) => sel.addEventListener('change', () => {
+    talks = sel.value;
+    dash.draw('cards');
+  }));
+  document.querySelectorAll('[data-sort]').forEach((sel) => sel.addEventListener('change', () => {
+    sort = sel.value;
+    dash.draw('cards');
+  }));
+
+  dash.onData(() => {
+    const data = rows('conflicts');
+    if (data.length && !opened) {
+      opened = true;
+      const wanted = location.hash.slice(1);
+      if (data.some((c) => c.id === wanted)) selected = wanted;
+    }
+    const newest = d3.max(data, (c) => c.pulled_at);
+    const late = newest && Date.now() - new Date(newest).getTime() > 36 * 3600 * 1000;
+    document.querySelectorAll('[data-late]').forEach((el) => { el.hidden = !late; });
+    showView();
+  });
+
+  const overviewDraw = (name) => dash.draw(name, (el) => {
+    const row = rows('overview')[0];
+    el.textContent = row ? String(row[el.getAttribute('data-field')]) : '—';
+  });
+  ['count', 'major', 'active', 'low', 'talks'].forEach(overviewDraw);
+
+  dash.draw('updated', (el) => {
+    const g = dash.data('conflicts');
+    if (g.refreshing) { el.textContent = 'Checking for new data.'; return; }
+    const newest = d3.max(rows('conflicts'), (c) => c.pulled_at);
+    if (!newest) { el.textContent = '—'; return; }
+    const stamp = new Date(newest).toLocaleString('en-US', {month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit'});
+    el.textContent = `Last data pull: ${stamp}.`;
+  });
+
+  dash.draw('region', (sel) => {
+    const regions = [...new Set(rows('conflicts').map((c) => c.region))].sort();
+    sel.replaceChildren(new Option('All regions', ''), ...regions.map((r) => new Option(r)));
+    sel.value = region;
+    sel.onchange = () => { region = sel.value; dash.draw('cards'); };
+  });
+
+  dash.draw('cards', (grid) => {
+    const g = dash.data('conflicts');
+    if (g.status === 'error') { grid.replaceChildren(make('p', 'wc-failed', 'Failed to load')); return; }
+    if (g.status !== 'ok') { grid.textContent = '—'; return; }
+    const latest = (c) => newsFor(c.id)[0]?.date ?? '';
+    const compare = {
+      severity: (a, b) => (RANK[a.intensity] ?? 9) - (RANK[b.intensity] ?? 9) || num(b.casualties_sort) - num(a.casualties_sort),
+      casualties: (a, b) => num(b.casualties_sort) - num(a.casualties_sort),
+      displaced: (a, b) => num(b.displaced_sort) - num(a.displaced_sort),
+      news: (a, b) => String(latest(b)).localeCompare(String(latest(a))),
+      name: (a, b) => String(a.name).localeCompare(String(b.name)),
+    }[sort];
+    const shown = rows('conflicts')
+      .filter((c) => !region || c.region === region)
+      .filter((c) => !talks || c.talks_status === talks)
+      .filter((c) => !search || JSON.stringify([c.name, list(c.countries), list(c.parties), c.region]).toLowerCase().includes(search))
+      .sort(compare);
+    if (!shown.length) { grid.replaceChildren(make('p', 'wc-empty', 'No conflicts match these filters.')); return; }
+    grid.replaceChildren(...shown.map((c) => {
+      const card = make('article', 'wc-card');
+      card.id = `card-${c.id}`;
+      card.tabIndex = 0;
+      card.setAttribute('role', 'button');
+      card.setAttribute('aria-label', `${c.name}: open headlines and details`);
+      card.addEventListener('click', () => open(c.id));
+      card.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); open(c.id); }
+      });
+
+      const top = make('div', 'wc-card-top');
+      top.append(mark(make('span', 'wc-card-name', c.name), 'name', c.id), mark(pill(c.intensity, INTENSITY_TONE[c.intensity]), 'intensity', c.id));
+
+      const facts = make('dl', 'wc-facts');
+      const fact = (label, ...content) => {
+        const dd = make('dd');
+        dd.append(...content);
+        facts.append(make('dt', '', label), dd);
+      };
+      const events = list(c.timeline);
+      const last = events[events.length - 1];
+      const timeline = make('span');
+      timeline.append(`Since ${c.started}`);
+      if (last) timeline.append(make('span', 'wc-small', `Latest: ${last.date}, ${last.event}`));
+      fact('Timeline', timeline);
+      fact('Casualties', mark(make('span', 'wc-big', c.casualties), 'casualties', c.id));
+      fact('Displaced', mark(make('span', 'wc-big', c.displaced), 'displaced', c.id));
+      fact('Parties', make('span', '', list(c.parties).map((p) => p.side).join(' vs ')));
+      const talksCell = make('span');
+      talksCell.append(mark(pill(c.talks_status, TALKS_TONE[c.talks_status]), 'talks_status', c.id), make('span', 'wc-small', c.talks));
+      fact('Peace talks', talksCell);
+
+      const news = newsFor(c.id);
+      const more = make('div', 'wc-more');
+      more.append(
+        make('span', '', news.length ? `${news.length} headlines, latest ${shortDate(news[0].date)}` : 'No recent headlines saved'),
+        make('span', '', 'Open news'),
+      );
+      card.append(top, make('p', 'wc-countries', list(c.countries).join(', ')), facts, more);
+      return card;
+    }));
+  });
+
+  const detail = (name, fill) => dash.draw(name, (el) => {
+    const c = current();
+    if (!c) { el.textContent = name === 'd-news' || name === 'd-timeline' ? '' : '—'; return; }
+    el.replaceChildren();
+    fill(el, c);
+  });
+  detail('d-name', (el, c) => { el.textContent = c.name; });
+  detail('d-countries', (el, c) => { el.textContent = `${list(c.countries).join(', ')} · ${c.region}`; });
+  detail('d-summary', (el, c) => { el.textContent = c.summary; });
+  detail('d-status', (el, c) => { el.append(pill(c.intensity, INTENSITY_TONE[c.intensity]), make('span', 'wc-small', `Checked ${shortDate(c.as_of)}`)); });
+  detail('d-started', (el, c) => {
+    el.textContent = c.started;
+    if (c.duration_note) el.append(make('span', 'wc-small', c.duration_note));
+  });
+  detail('d-casualties', (el, c) => {
+    el.append(mark(make('span', 'wc-big', c.casualties), 'casualties', c.id), make('span', 'wc-small', c.casualties_basis), sourceLine(c.casualties_source, c.casualties_url));
+  });
+  detail('d-displaced', (el, c) => {
+    el.append(mark(make('span', 'wc-big', c.displaced), 'displaced', c.id), make('span', 'wc-small', c.displaced_basis), sourceLine(c.displaced_source, c.displaced_url));
+  });
+  detail('d-parties', (el, c) => {
+    list(c.parties).forEach((p) => {
+      const line = make('span', 'wc-party');
+      line.append(make('b', '', p.side));
+      if (p.members) line.append(make('span', 'wc-small', p.members));
+      el.append(line);
+    });
+  });
+  detail('d-talks', (el, c) => {
+    el.append(pill(c.talks_status, TALKS_TONE[c.talks_status]), make('span', 'wc-small', c.talks), sourceLine(c.talks_source, c.talks_url));
+  });
+  detail('d-timeline', (el, c) => {
+    list(c.timeline).forEach((t) => {
+      const li = make('li');
+      li.append(make('span', '', t.date), make('span', '', t.event));
+      el.append(li);
+    });
+  });
+  detail('d-news', (el, c) => {
+    const news = newsFor(c.id);
+    if (!news.length) { el.append(make('li', 'wc-note', 'No recent headlines saved for this conflict.')); return; }
+    news.forEach((h) => {
+      const li = make('li');
+      const href = safeUrl(h.url);
+      if (href) {
+        const a = make('a', '', h.title);
+        a.href = href;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        li.append(a);
+      } else {
+        li.append(make('span', '', h.title));
+      }
+      li.append(make('span', 'wc-note', `${h.outlet} · ${shortDate(h.date)}`));
+      if (h.note) li.append(make('span', '', h.note));
+      el.append(li);
+    });
+  });
+</script>
+</div>
+</body>
+</html>
